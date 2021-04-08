@@ -1,0 +1,138 @@
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%
+}
+
+body {
+  background-image: url("images/search.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  max-width: 100%
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Niveau Grotesk", serif;
+}
+
+label {
+  font-size: 22px;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* ----- Body Container ---- */
+
+/* Add padding to containers */
+.container {
+  padding: 10px;
+  background-color: #FCA311;
+  width: 800px;
+  display: block;
+
+}
+
+.button {
+  background-color: #14213D;
+  font-size: 25px;
+  color: white;
+  padding: 18px 120px;
+  text-align: center;
+  margin: 4px 2px;
+  border: 10px bold
+}
+
+.button:hover {
+  opacity: 1;
+  transition-duration: 0.3s;
+  background-color: #7C160B;
+}
+
+/* Div for center two buttons (Search and Reset) */
+.button_row {
+  text-align: center;
+  transition-duration: 0.4s;
+}
+
+.content {
+  position: fixed;
+  right: 200
+}
+
+/* Full-width input fields */
+input[type=text] {
+  width: 50%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  position: static;
+}
+
+input[type=selected] {
+  width: 50%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Search Button */
+.search_button {
+  background-color: #14213D;
+  color: white;
+  font-size: 16px;
+  padding: 10px 30px;
+  text-align: center;
+  margin: 4px 32px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+/* Search Button Hover */
+.search_button:hover {
+  opacity: 1;
+  transition-duration: 0.4s;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* Reset Button */
+.reset_button {
+  background-color: #14213D;
+  color: white;
+  font-size: 16px;
+  padding: 10px 30px;
+  text-align: center;
+  margin: 4px 2px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+/* Reset Button Hover */
+.reset_button:hover {
+  opacity: 1;
+  transition-duration: 0.4s;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.form_content {
+  margin-left: 10%;
+}
