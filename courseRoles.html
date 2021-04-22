@@ -4,15 +4,18 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
   <title>Spyder</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
+
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
@@ -54,7 +57,7 @@
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
-      
+
     <div style="margin-left:20%; line-height: 2.5;">
     <div class="container position-relative text-center text-lg-left" data-aos="zoom-in" data-aos-delay="100">
         <div id="course_form"></div>
@@ -63,27 +66,34 @@
     <form id=course_form method="get">
       <div class="container2">
         <div class="button_row" style="text-align:center;">
-          <button type="button" class="button">Search By Course</button>
+          <button type="button" class="button">Course</button>
+          <button type="button" class="button">Career</button>
         </div>
         <p style="text-align:center">Want to change your search? Click the button above!</p>
         <hr>
 
-        <div class="form_content">
-        <label for="course"><b>Course</b></label>
-        <br>
-        <input type="text" placeholder="Enter Role" name="email" id="course" list="coursename" required>
-        <datalist id="coursename">
-          <option value="Database Administrator">
-          <option value="Cyber Defense Analyst">
-          <option value="Cyber Defense Forensics Analst">
-          <option value="Target Network Analyst">
-          <option value="Target Developer">
-        </datalist>
+        <!-- ======= Search added by Radha ======= -->
+      <form>
+          <div class="form_content">
+            <label for="course"><b>Course</b></label>
+            <div class="form-search">
+              <input type="search" id="search" class="form-control form-control-lg" autocomplete="off" placeholder="Enter Course" autofocus="on">
+            </div>
+            <div id="match-list"></div>
+          <div class="form-selection">
+            <label for="selection"><b>Selected</b></label>
+            <!--<input type="text" id="list" class="form-control form-control-lg">-->
+            <select id="list" name="list" class="form-control form-control-lg" multiple></select>
+            <button id="btnRemove" class="search_button">Remove Selected Framework</button>
+          </div>
+      </form>
+        <!-- ======= end Search ======= -->
 
-        <!-- <input type="selected" name="selected" id="selected_course" required> -->
-
-        <button type="submit" class="search_button">Search</button>
+        <center>
+        <button type="button" class="search_button" id="submit">Search</button>
+        <!-- onclick='main_mongo(["http://www.semanticweb.org/N#CI_101_Computing_and_Informatics_Design_I", "http://www.semanticweb.org/N#CI_102_Computing_and_Informatics_Design_II"])' -->
         <button type="reset" class="reset_button">Reset</button>
+        </center>
 
         </div>
 
@@ -94,9 +104,9 @@
 
     </section>
 
-        
-        
-        
+
+
+
     </div>
       </div>
     </section>
@@ -115,7 +125,7 @@
               <li><a href="#">Contact Us</a></li>
             </ul>
           </div>
-    
+
           <div style="float: right; padding-top: 1%; padding-right: 1%;" >
             <h4>AS FEATURED IN</h4>
             <img src="./assets/img/CCI.png" height="100px" width="350px" />
@@ -135,6 +145,13 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <!-- Radha and Rachel added JS Files -->
+  <script src="assets/js/search.js"></script>
+  <script src="assets/js/result.js"></script>
+  <!-- <script src="assets/js/mongodb.js"></script> -->
+
+  <!-- <script src="bundle.js"></script> -->
 
 </body>
 
