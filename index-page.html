@@ -40,8 +40,8 @@
 
 
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top">
+   <!-- ======= Header ======= -->
+   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
       <!--<h1 class="logo mr-auto"><a href="index.html">SPYDER</a></h1> -->
@@ -50,10 +50,18 @@
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li class="active"><a href="home-page.html">Home</a></li>
-          <li><a href="home-page.html">Search</a></li>
+          <li><a href="home-page.html">Home</a></li>
           <li><a href="tutorial-page.html">Tutorial</a></li>
           <li><a href="contact-page.html">Contact</a></li>
+          <li><div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Search
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="courseRoles.html">Search By Course</a>
+              <a class="dropdown-item" href="rolesCourse.html">Search By Role</a>
+            </div>
+          </div></li>
         </ul>
       </nav><!-- .nav-menu -->
 
