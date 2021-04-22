@@ -1,5 +1,7 @@
-//SEARCH ENTERED BY RADHA
+// SEARCH ENTERED BY RADHA AND RACHEL
+// search_auto is the search box; as the user starts typing, searchCourses_auto will run
 const search_auto = document.getElementById('search');
+// matchlist_auto is the list of matches that gets populated by search_auto; users can click on one of the matches to add it to list
 const matchList_auto = document.getElementById('match-list');
 
 // Search courses.json and filter it
@@ -7,60 +9,72 @@ const searchCourses_auto = async searchText => {
   const res = await fetch('assets/data/courses.json');
   const course = await res.json();
 
-  //get matches to current text input
+  // Get matches to current text input
   let matches = Object.values(course).filter(data => {
     const regex = new RegExp(`.*(${searchText}).*`, 'gi');
+    // Searches the Course Name, Nubmer, and Description; returns if there is a match
     return data.Course_Full.match(regex) || data.Course_Description.match(regex);
   });
 
+  // If the search box is empty, the match-list will be empty as well
   if(searchText.length === 0) {
     matches = [];
     matchList_auto.innerHTML = '';
   };
 
+  // outputHtml_auto will display matches to user
   outputHtml_auto(matches);
 };
 
-//Show results in html
+// Show results in HTML
 const outputHtml_auto = matches => {
   if(matches.length > 0) {
     const html = matches.map(
+      // matches to list of courses (courses.json)
+      // matches become a button with onclick add function
+      // onclick passes in value of button (which is the name of the course), and the ID of the button (which is the GraphDB URI)
       match =>   `
-        <button class="card card-body mb-1" type="button" onclick="add_course(this.value)" value="${match.Course_Full}"><p>${match.Course_Full}</p></button>
+        <button class="card card-body mb-1" type="button" onclick="add_course(this.value, this.id)" value="${match.Course_Full}" id="${match.GraphDB1}"><p>${match.Course_Full}</p></button>
         `
+
       )
       .join('');
 
-      const mongo_URI = matches.map(
-        match =>   `"${match.GraphDB1}"`
-        )
-        .join(',');
-
+    // Sets match-list HTML to buttons of matches
     matchList_auto.innerHTML = html;
   }
 };
 
+// Listens for input from user (typing in search box)
 search_auto.addEventListener('input', () => searchCourses_auto(search_auto.value));
 
 
-//ADD AND REMOVE FUNCTION
+// ADD AND REMOVE FUNCTION
+// btnRemove is the button to remove selected courses
 const btnRemove = document.querySelector('#btnRemove');
+// sb is the list of selected courses
 const sb = document.querySelector('#list');
+// search is search box the user types into
 const search = document.querySelector('#search');
 
-function add_course(name){
+// onclick function for match-list buttons
+// Adds clicked on course to selected list
+function add_course(name, mdb_uri){
   // validate the option
   if (name == '') {
-    alert('Please enter the name.');
+    alert('Please enter the course name.');
     return;
   }
+
   // create a new option
+  // name is Course Name and mdb_uri is the GraphDB URI for that course
+  const option = new Option(name, mdb_uri);
   //const option = new Option(name.options[name.selectedIndex].text, name.options[name.selectedIndex].text);
-  const option = new Option(name, name);
+
   // add it to the list
   sb.add(option, undefined);
 
-  // reset the value of the input
+  // reset the value of the input, and returns users to keep typing in search box
   search.value = '';
   search.focus();
 };
@@ -83,4 +97,28 @@ btnRemove.onclick = (e) => {
       sb.remove(index);
     }
   }
+};
+
+
+// SEARCH/SUBMIT FUNCTION
+// submit is the submit/search button; what users will click to show results
+const submit = document.querySelector('#submit');
+
+submit.onclick = (e) => {
+  e.preventDefault();
+
+  // create blank array to append/push to
+  var submitted = [];
+
+  // for each option is the user's list of selected courses
+  $('#list option').each(function(){
+      // search_uri will be set to the value of the option (which is the GraphDB URI)
+      var search_uri = $(this).val();
+      // Append/push URI to the array of courses
+      submitted.push(search_uri);
+  });
+
+  // Temporary to show array of selected classes
+  document.getElementById('results').innerHTML = submitted;
+  alert(submitted);
 };
