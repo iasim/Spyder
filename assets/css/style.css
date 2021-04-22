@@ -554,11 +554,12 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   background: url("../img/giphy.gif") top center;
   background-size: cover;
   position: relative;
   padding-right: 30px;
+  padding-top:16px;
 }
 
 #hero:before {
@@ -572,7 +573,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .container {
-  padding-top: 110px;
+  padding-top: 9%;
   padding-right: 30px;
 }
 
