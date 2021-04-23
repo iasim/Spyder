@@ -30,11 +30,10 @@
 
 </head>
 
-<body>
+<body style="max-height: 1010px">
 
-
-   <!-- ======= Header ======= -->
-   <header id="header" class="fixed-top">
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
       <!--<h1 class="logo mr-auto"><a href="index.html">SPYDER</a></h1> -->
@@ -46,15 +45,17 @@
           <li><a href="home-page.html">Home</a></li>
           <li><a href="tutorial-page.html">Tutorial</a></li>
           <li><a href="contact-page.html">Contact</a></li>
-          <li><div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Search
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="courseRoles.html">Search By Course</a>
-              <a class="dropdown-item" href="rolesCourse.html">Search By Role</a>
+          <li>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Search
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="courseRoles.html">Search By Course</a>
+                <a class="dropdown-item" href="rolesCourse.html">Search By Role</a>
+              </div>
             </div>
-          </div></li>
+          </li>
         </ul>
       </nav><!-- .nav-menu -->
 
@@ -65,57 +66,125 @@
   <section id="hero22" class="d-flex align-items-center">
 
     <div style="margin: auto; line-height: 1.5;">
-    <div class="container position-relative text-center text-lg-left" data-aos="zoom-in" data-aos-delay="100">
-        <div id="course_form"></div>
+      <div class="container position-relative text-center text-lg-left" data-aos="zoom-in" data-aos-delay="100">
 
-  <section class="box">
-    <form id=course_form method="get">
-      <div class="container2">
-        <div class="button_row" style="text-align:center;">
-          <button type="button" class="button">Search By Course</button>
-        </div>
-        <p style="text-align:center">Want to change your search? Click the button above!</p>
-        <hr>
+        <main style="max-height: 940px">
 
-        <!-- ======= Search added by Radha ======= -->
-      <form>
-          <div class="form_content">
-            <label for="course"><b>Course</b></label>
-            <div class="form-search">
-              <input type="search" id="search" class="form-control form-control-lg" autocomplete="off" placeholder="Enter Course" autofocus="on">
-            </div>
-            <div id="match-list"></div>
-          <div class="form-selection">
-            <label for="selection"><b>Selected</b></label>
-            <!--<input type="text" id="list" class="form-control form-control-lg">-->
-            <select id="list" name="list" class="form-control form-control-lg" multiple></select>
-            <button id="btnRemove" class="search_button">Remove Selected Framework</button>
-          </div>
+          <section class="box">
+            <form id=course_form method="get">
+              <div class="container2">
+                <div class="button_row" style="text-align:center;">
+                  <button type="button" class="button">Search By Course</button>
+                </div>
+                <p style="text-align:center">Want to change your search? Click the button above!</p>
+                <hr>
+
+                <!-- ======= Search added by Radha ======= -->
+                <form>
+                  <div class="form_content">
+                    <label for="course"><b>Course</b></label>
+                    <div class="form-search">
+                      <input type="search" id="search" class="form-control form-control-lg" autocomplete="off" placeholder="Enter Course" autofocus="on">
+                    </div>
+                    <div id="match-list"></div>
+                    <br>
+                    <div class="form-selection">
+                      <label for="selection"><b>Selected</b></label>
+                      <!--<input type="text" id="list" class="form-control form-control-lg">-->
+                      <select id="list" name="list" class="form-control form-control-lg" multiple></select>
+
+                    </div>
+                </form>
+                <!-- ======= end Search ======= -->
+
+
+                <!-- ======= Buttons ========== -->
+                <br>
+                <center>
+                  <button type="button" class="search_button" id="submit">Search</button>
+                  <button type="reset" class="reset_button">Reset</button>
+                  <button id="btnRemove" class="search_button">Remove Selected Framework</button>
+                </center>
+
+                <!-- ======= end Buttons ========== -->
+
+              </div>
+
+              <p style="text-align:center"><br>To view the result, please press search button to continue.</p>
+      </div>
+
       </form>
-        <!-- ======= end Search ======= -->
 
-        <center>
-        <button type="button" class="search_button" id="submit">Search</button>
-        <button type="reset" class="reset_button">Reset</button>
-        </center>
+      <!-- ===== Result section added by Man Tik Li (04/22/2021) =====-->
+      <div>
+        <br>
+        <label for="results">
+          <h1 style="font-size: 40px">Results</h1>
+        </label>
+        <div id="results" style="max-height: 200px; overflow: auto;">
 
-        <label for="results"><b>Results</b></label>
-        <div id="results"></div>
+          <!-- ====== Collapsibles added by Man Tik Li (04/22/2021) ===== -->
+          <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Course1</button>
+          <div id="demo" class="collapse">
+            <p>This class helps ...</p>
+          </div>
+          <br>
+          <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Course2</button>
+          <div id="demo" class="collapse">
+            <p>This class helps ...</p>
+          </div>
+          <br>
+          <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Course3</button>
+          <div id="demo" class="collapse">
+            <p>This class helps ...</p>
+          </div>
+          <br>
+          <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Course4</button>
+          <div id="demo" class="collapse">
+            <p>This class helps ...</p>
+          </div>
+          <br>
+          <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Course5</button>
+          <div id="demo" class="collapse">
+            <p>This class helps ...</p>
+          </div>
+          <br>
+          <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Course6</button>
+          <div id="demo" class="collapse">
+            <p>This class helps ...</p>
+          </div>
+
         </div>
 
-        <p style="text-align:center"><br>To view the result, please press search button to continue.</p>
+  </section>
+
+
+
+
+  </div>
+  </div>
+  </main>
+  </section>
+
+
+  <!-- ======= Footer ======= -->
+  <footer style="background: rgba(20, 33, 61, 0.9); height: 160px;">
+    <div style="width: 100%; background: rgba(20, 33, 61, 0.9)">
+      <div style="float: left; padding-left: 4%; padding-top: 1%">
+        <h3>Find out More</h3>
+        <ul style="list-style-type:none;">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">FAQ's</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
       </div>
 
-    </form>
-
-    </section>
-
-
-
-
+      <div style="float: right; padding-top: 1%; padding-right: 1%;">
+        <h4>AS FEATURED IN</h4>
+        <img src="./assets/img/CCI.png" height="80px" width="350px" />
+      </div>
     </div>
-      </div>
-    </section>
+  </footer>
 
   <div id="preloader"></div>
 
