@@ -118,7 +118,44 @@ submit.onclick = (e) => {
       submitted.push(search_uri);
   });
 
-  // Temporary to show array of selected classes
-  document.getElementById('results').innerHTML = submitted;
-  alert(submitted);
+    // ensure that the list of courses the user selected has no duplicates
+    var unique = [...new Set(submitted)]
+    submitted = Array.from(unique)
+
+    // searchURI function will search select classes on the GraphDB json file (our ontology)
+    searchURI(submitted)
+};
+
+
+// Search GraphDB.json and filter it
+const searchURI = async searchText => {
+  // Open GraphDB.json file
+  const res = await fetch('assets/data/GraphDB.json');
+  const json_GraphDB = await res.json();
+
+  // results will be an array of JSON objects based on the user's search
+  var results = [];
+  var index;
+  var current_URI;
+  // html is currently used to show the results to the courseRoles.html
+  var html = `<p>Test Results</p>`;
+
+  // for each object in the searchText (each course selected)
+  for (index = 0; index < searchText.length; index++) {
+    // set current_URI to the current course
+    current_URI = searchText[index];
+    // append to the resutls array any JSON objects that match the given course URI
+    results.push.apply(results, json_GraphDB.filter( record => record.Course.value === current_URI));
+  }
+
+  // for each JSON object in the results array
+  for (index = 0; index < results.length; index++) {
+    // add on to html with each NICE Role Title
+    html += `<p>${results[index].NICE_Role_Title.value}</p>`
+  }
+
+  // send html to the front end (id = test_results)
+  document.getElementById('test_results').innerHTML = html;
+
+  // will need to check for no duplicates in resulting NICE Work Roles
 };
