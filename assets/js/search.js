@@ -151,7 +151,11 @@ const searchURI = async searchText => {
   // for each JSON object in the results array
   for (index = 0; index < results.length; index++) {
     // add on to html with each NICE Role Title
-    html += `<p>${results[index].NICE_Role_Title.value}</p>`
+    html += `<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">${results[index].NICE_Role_Title.value}</button>
+    <div id="demo" class="collapse">
+      <p>${results[index].NICE_Role_Description.value}</p>
+    </div>
+    <br>`
   }
 
   // send html to the front end (id = test_results)
