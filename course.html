@@ -74,8 +74,8 @@
             <form id=course_form method="get">
               <div class="container2">
                 <div class="button_row" style="text-align:center;">
-                  <button type="button" class="button">Course</button>
-                  <button type="button" class="button">Role</button>
+                  <button id="bttn" >Course</button>
+                  <button id="bttn2" >Role</button>
                 </div>
                 <p style="text-align:center">Want to change your search? Click the button above!</p>
                 <hr>
@@ -160,10 +160,6 @@
         </div>
 
   </section>
-
-
-
-
   </div>
   </div>
   </main>
@@ -207,6 +203,20 @@
 
   <!-- Radha and Rachel added JS Files -->
   <script src="assets/js/search.js"></script>
+  <script>
+    window.addEventListener('load', (event) => {
+          const queryString = window.location.search
+          if(queryString.includes('Course')){
+              document.getElementById('bttn').classList.add('asim334')
+              document.getElementById('bttn2').classList.add('button22')
+          }
+
+          if(queryString.includes('Role')){
+              document.getElementById('bttn2').classList.add('asim334')
+              document.getElementById('bttn').classList.add('button22')
+          }
+  });
+      </script>
 
 </body>
 

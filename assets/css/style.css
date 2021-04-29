@@ -2,7 +2,17 @@
 # Mantik Li
 --------------------------------------------------------------*/
 
-.button {
+.asim334 {
+  background-color:#7c160b;
+  font-size: 25px;
+  color: white;
+  padding: 18px 120px;
+  text-align: center;
+  margin: 4px 2px;
+  border: 10px bold;
+}
+
+.button22 {
   background-color: #14213d;
   font-size: 25px;
   color: white;
@@ -12,7 +22,8 @@
   border: 10px bold;
 }
 
-.button:hover {
+
+.button22:hover {
   opacity: 1;
   transition-duration: 0.3s;
   background-color: #7c160b;
@@ -87,9 +98,6 @@
   font-size: 15px;
 }
 
-.active, .collapsible:hover {
-  <!-- background-color: #555; -->
-}
 
 .description {
   padding: 0 18px;
