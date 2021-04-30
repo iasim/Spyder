@@ -117,64 +117,47 @@ submit.onclick = (e) => {
       submitted.push(search_uri);
   });
 
-    // ensure that the list of courses the user selected has no duplicates
-    var unique = [...new Set(submitted)]
-    submitted = Array.from(unique)
+  // ensure that the list of courses the user selected has no duplicates
+      var unique = [...new Set(submitted)]
+      submitted = Array.from(unique)
 
-    // searchURI function will search select classes on the GraphDB json file (our ontology)
-    searchURI(submitted)
-};
-
-
-// Search GraphDB.json and filter it
-const searchURI = async searchText => {
-  // Open GraphDB.json file
-  const res = await fetch('assets/data/GraphDB.json');
-  const json_GraphDB = await res.json();
-
-  // results will be an array of JSON objects based on the user's search
-  var results = [];
-  var index;
-  var current_URI;
-  // html is currently used to show the results to the courseRoles.html
-  var html = ``;
-
-  // for each object in the searchText (each course selected)
-  for (index = 0; index < searchText.length; index++) {
-    // set current_URI to the current course
-    current_URI = searchText[index];
-    // append to the resutls array any JSON objects that match the given course URI
-    results.push.apply(results, json_GraphDB.filter( record => record.Course.value === current_URI));
-  }
-
-  // for each JSON object in the results array
-  for (index = 0; index < results.length; index++) {
-    // add on to html with each NICE Role Title
-    html += `<button class="collapsible">${results[index].NICE_Role_Title.value}</button>
-<div class="content">
-  <p>${results[index].NICE_Role_Description.value}</p>
-</div>`
-  }
-
-  // send html to the front end (id = test_results)
-  document.getElementById('results').innerHTML = html;
-
-  // will need to check for no duplicates in resulting NICE Work Roles
-};
+      // searchURI function will search select classes on the GraphDB json file (our ontology)
+      searchURI(submitted)
+  };
 
 
-//Collapsible
-var coll = document.getElementsByClassName("collapsible");
-var i;
+  // Search GraphDB.json and filter it
+  const searchURI = async searchText => {
+    // Open GraphDB.json file
+    const res = await fetch('assets/data/GraphDB.json');
+    const json_GraphDB = await res.json();
 
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.maxHeight){
-      content.style.maxHeight = null;
-    } else {
-      content.style.maxHeight = content.scrollHeight + "px";
+    // results will be an array of JSON objects based on the user's search
+    var results = [];
+    var index;
+    var current_URI;
+    // html is currently used to show the results to the courseRoles.html
+    var html = ``;
+
+    // for each object in the searchText (each course selected)
+    for (index = 0; index < searchText.length; index++) {
+      // set current_URI to the current course
+      current_URI = searchText[index];
+      // append to the resutls array any JSON objects that match the given course URI
+      results.push.apply(results, json_GraphDB.filter( record => record.Course.value === current_URI));
     }
-  });
-}
+
+    // for each JSON object in the results array
+    for (index = 0; index < results.length; index++) {
+      html += `<button type="button" class="card card-body mb-1" data-toggle="collapse" data-target="#demo">${results[index].NICE_Role_Title.value}</button>
+   <div id="demo" class="collapse">
+     <p>${results[index].NICE_Role_Description.value}</p>
+   </div>
+   <br>`
+ }
+
+    // send html to the front end (id = test_results)
+    document.getElementById('test_results').innerHTML = html;
+
+    // will need to check for no duplicates in resulting NICE Work Roles
+  };

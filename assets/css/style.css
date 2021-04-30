@@ -85,27 +85,7 @@
 }
 
 .active, .collapsible:hover {
-  background-color: #555;
-}
-
-.collapsible:after {
-  content: '\002B';
-  color: white;
-  font-weight: bold;
-  float: right;
-  margin-left: 5px;
-}
-
-.active:after {
-  content: "\2212";
-}
-
-.content {
-  padding: 0 18px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color: #f1f1f1;
+  <!-- background-color: #555; -->
 }
 
 .description {
@@ -712,8 +692,6 @@ h6 {
   height: 120px;
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
-  -webkit-animation: pulsate-btn 2s;
-  animation: pulsate-btn 2s;
   -webkit-animation-direction: forwards;
   animation-direction: forwards;
   -webkit-animation-iteration-count: infinite;
@@ -784,28 +762,6 @@ h6 {
   }
 }
 
-@-webkit-keyframes pulsate-btn {
-  0% {
-    transform: scale(0.6, 0.6);
-    opacity: 1;
-  }
-  100% {
-    transform: scale(1, 1);
-    opacity: 0;
-  }
-}
-
-@keyframes pulsate-btn {
-  0% {
-    transform: scale(0.6, 0.6);
-    opacity: 1;
-  }
-  100% {
-    transform: scale(1, 1);
-    opacity: 0;
-  }
-}
-
 /*--------------------------------------------------------------
 # Hero22 Section
 --------------------------------------------------------------*/
@@ -833,7 +789,6 @@ h6 {
   padding-top: 5%;
   padding-right: 30px;
   max-width: 992px;
-  max-height: 1025px;
 }
 
 @media (max-width: 992px) {
@@ -848,16 +803,13 @@ h6 {
   font-size: 51px;
   font-weight: 700;
   line-height: 65px;
-  color: #fff;
   font-family: "Poppins", sans-serif;
 }
 
 #hero22 h1 span {
-  color: #cda45e;
 }
 
 #hero22 h2 {
-  color: #eee;
   margin-bottom: 10px 0 0 0;
   font-size: 24px;
 }
@@ -925,8 +877,6 @@ h6 {
   height: 120px;
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
-  -webkit-animation: pulsate-btn 2s;
-  animation: pulsate-btn 2s;
   -webkit-animation-direction: forwards;
   animation-direction: forwards;
   -webkit-animation-iteration-count: infinite;
@@ -951,7 +901,6 @@ h6 {
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translateX(-40%) translateY(-50%);
   width: 0;
   height: 0;
   border: none;
@@ -996,35 +945,11 @@ h6 {
     line-height: 48px;
   }
 }
-
-@-webkit-keyframes pulsate-btn {
-  0% {
-    transform: scale(0.6, 0.6);
-    opacity: 1;
-  }
-  100% {
-    transform: scale(1, 1);
-    opacity: 0;
-  }
-}
-
-@keyframes pulsate-btn {
-  0% {
-    transform: scale(0.6, 0.6);
-    opacity: 1;
-  }
-  100% {
-    transform: scale(1, 1);
-    opacity: 0;
-  }
-}
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
 section {
   padding: 60px 0;
-  overflow: hidden;
-  max-height: inherit;
 }
 
 .section-bg {
@@ -1043,7 +968,6 @@ section {
   margin: 0 0 5px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #aaaaaa;
   font-family: "Poppins", sans-serif;
 }
 
@@ -1062,7 +986,6 @@ section {
   font-size: 36px;
   font-weight: 700;
   font-family: "Playfair Display", serif;
-  color: #cda45e;
 }
 
 /*--------------------------------------------------------------
@@ -1436,12 +1359,24 @@ section {
   color: white;
 }
 
+.collapsible.p{
+  vertical-align: middle;
+}
+
 .card.p {
   vertical-align: baseline;
 }
 
 .card-body {
   height: 40px;
+  padding: 0.5rem;
+  padding-top: 0rem;
+  font-size: 15px;
+  color: white;
+}
+
+.collapsible {
+  height: 50px;
   padding: 0.5rem;
   padding-top: 0rem;
   font-size: 15px;
@@ -1458,6 +1393,8 @@ section {
 }
 
 div.output{
-  padding: 30px;
-  background: inherit;
+}
+
+div.output.collapsible{
+  color: white;
 }
