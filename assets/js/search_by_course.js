@@ -145,23 +145,27 @@ submit.onclick = (e) => {
       current_URI = searchText[index];
       // append to the resutls array any JSON objects that match the given course URI
       results.push.apply(results, json_GraphDB.filter( record => record.Course.value === current_URI));
-    }
+    };
 
+    var unique_results = [];
     // for each JSON object in the results array
     for (index = 0; index < results.length; index++) {
-      html += `<button type="button" class="collapsible_button card card-body mb-1" onclick="collapsible_button_click(this.id)" id="${results[index].NICE_Role_Title.value}">${results[index].NICE_Role_Title.value}</button>
-   <div class="collapse">
-     <p>${results[index].NICE_Role_Description.value}</p>
-   </div>
-   <br>`
- }
+      // if the role isn't already in being displayed, then display it
+      if (!unique_results.includes(results[index].NICE_Role_Title.value)) {
+        unique_results.push(results[index].NICE_Role_Title.value);
+        html += `<button type="button" class="collapsible_button card card-body mb-1" onclick="collapsible_button_click(this.id)" id="${results[index].NICE_Role_Title.value}">${results[index].NICE_Role_Title.value}</button>
+        <div class="collapse">
+        <p>${results[index].NICE_Role_Description.value}</p>
+        </div>
+        <br>`
+      };
+    };
 
     // send html to the front end (id = test_results)
     document.getElementById('test_results').innerHTML = html;
-
-    // will need to check for no duplicates in resulting NICE Work Roles
   };
 
+// collapsible_button_click is the function that is called onclick for the collapsible buttons
 function collapsible_button_click(btn_ID) {
       document.getElementById(btn_ID).classList.toggle("active");
       var collapse = document.getElementById(btn_ID).nextElementSibling;
