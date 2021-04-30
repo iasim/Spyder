@@ -51,8 +51,8 @@
                 Search
               </button>
               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="course.html">Search By Course</a>
-                <a class="dropdown-item" href="role.html">Search By Role</a>
+                <a class="dropdown-item" href="course.html?selector=Course">Search By Course</a>
+                <a class="dropdown-item" href="role.html?selector=Role">Search By Role</a>
               </div>
             </div>
           </li>
@@ -74,8 +74,8 @@
             <form id=course_form method="get">
               <div class="container2">
                 <div class="button_row" style="text-align:center;">
-                  <button id="bttn"> Course</button>
-                  <button id="bttn2">Role</button>
+                  <button id="bttn" onclick="window.location.href='course.html?selector=Course'"> Course</button>
+                  <button id="bttn2" onclick="window.location.href='home-page.html?selector=Role'"> MiRole</button>
                 </div>
                 <p style="text-align:center">Want to change your search? Click the button above!</p>
                 <hr>
