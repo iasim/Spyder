@@ -48,7 +48,6 @@ const outputHtml_auto = matches => {
 // Listens for input from user (typing in search box)
 search_auto.addEventListener('input', () => searchCourses_auto(search_auto.value));
 
-
 // ADD AND REMOVE FUNCTION
 // btnRemove is the button to remove selected courses
 const btnRemove = document.querySelector('#btnRemove');
@@ -138,7 +137,7 @@ const searchURI = async searchText => {
   var index;
   var current_URI;
   // html is currently used to show the results to the courseRoles.html
-  var html = `<p>Test Results</p>`;
+  var html = ``;
 
   // for each object in the searchText (each course selected)
   for (index = 0; index < searchText.length; index++) {
@@ -151,15 +150,31 @@ const searchURI = async searchText => {
   // for each JSON object in the results array
   for (index = 0; index < results.length; index++) {
     // add on to html with each NICE Role Title
-    html += `<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">${results[index].NICE_Role_Title.value}</button>
-    <div id="demo" class="collapse">
-      <p>${results[index].NICE_Role_Description.value}</p>
-    </div>
-    <br>`
+    html += `<button class="collapsible">${results[index].NICE_Role_Title.value}</button>
+<div class="content">
+  <p>${results[index].NICE_Role_Description.value}</p>
+</div>`
   }
 
   // send html to the front end (id = test_results)
-  document.getElementById('test_results').innerHTML = html;
+  document.getElementById('results').innerHTML = html;
 
   // will need to check for no duplicates in resulting NICE Work Roles
 };
+
+
+//Collapsible
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
