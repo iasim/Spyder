@@ -58,7 +58,7 @@
 
 .form_content {
   margin-left: 10%;
-  padding-right: 50px;
+  margin-right: 10%;
 }
 
 .container2 {
@@ -67,6 +67,13 @@
   width: 800px;
   display: block;
 }
+
+#test_results{
+  padding-right: 10%;
+  padding-left: 6%;
+}
+
+
 
 /*--------------------------------------------------------------
 # ManTik Li & Radha
@@ -104,7 +111,6 @@ body {
   background: #0c0b09;
   color: #fff;
   min-height: 100vh;
-  overflow: visible;
 }
 
 a {
@@ -123,6 +129,10 @@ h4,
 h5,
 h6 {
   font-family: "Playfair Display", serif;
+}
+
+main {
+  padding-bottom: 7%;
 }
 
 /*--------------------------------------------------------------
@@ -584,8 +594,9 @@ h6 {
   background: url("../img/giphy.gif") top center;
   background-size: cover;
   position: relative;
+  padding-top: 71px;
+  padding-bottom: 160px;
   padding-right: 30px;
-  padding-top: 16px;
 }
 
 #hero:before {
@@ -769,10 +780,10 @@ h6 {
 #hero22 {
   width: 100%;
   background: url("../img/giphy.gif") top center;
-  background-size: cover;
+  background-size: auto;
   position: relative;
-  padding-right: 30px;
-  padding-top: 16px;
+  padding-top: 71px;
+  padding-bottom: 140px;
 }
 
 #hero22:before {
@@ -786,8 +797,7 @@ h6 {
 }
 
 #hero22 .container {
-  padding-top: 5%;
-  padding-right: 30px;
+  padding-top: 9%;
   max-width: 992px;
 }
 
@@ -949,7 +959,8 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding-bottom: 10%;
+  overflow: hidden;
 }
 
 .section-bg {
@@ -1178,12 +1189,22 @@ section {
   }
 }
 
+#footer {
+  background: rgba(20, 33, 61, 1);
+  position:fixed;
+  bottom:0;
+  left:0;
+  right: 0;
+  width: 100%;
+  height: 150px;
+}
 /*--------------------------------------------------------------
 # Footer
---------------------------------------------------------------*/
 #footer {
   padding-top: 50px;
-  width: 100%
+  width: 100%;
+  background-color: rgba(20, 33, 61, 0.9);
+  height: 160px;
   font-size: 14px;
   position: fixed;
   bottom: 0;
@@ -1370,8 +1391,8 @@ section {
 .card-body {
   height: 40px;
   padding: 0.5rem;
-  padding-top: 0rem;
-  font-size: 15px;
+  padding-top: 1%m;
+  font-size: 16px;
   color: white;
 }
 

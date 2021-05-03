@@ -66,7 +66,7 @@
   <section id="hero22" class="d-flex align-items-center">
 
     <div style="margin: auto; line-height: 1.5;">
-      <div class="container text-center text-lg-left" data-aos="zoom-in" data-aos-delay="100">
+      <div class="container position-relative text-lg-left" data-aos="zoom-in" data-aos-delay="100">
 
         <main>
 
@@ -83,7 +83,6 @@
                 <!-- ======= Search added by Radha ======= -->
                 <form>
                   <div class="form_content">
-                    <!-- Test Results div just to test current results; will remove later -->
                     <label for="course"><b>Course</b></label>
                     <div class="form-search">
                       <input type="search" id="search" class="form-control form-control-lg" autocomplete="off" placeholder="Enter Course" autofocus="on">
@@ -102,32 +101,45 @@
                 <!-- ======= Buttons ========== -->
                 <br>
                 <center>
-                  <button id="btnRemove" class="search_button">Remove Selected Framework</button>
                   <button type="button" class="search_button" id="submit">Search</button>
+                  <button id="btnRemove" class="search_button">Remove Selected</button>
                 </center>
                 <!-- ======= end Buttons ========== -->
 
               </div>
 
               <p style="text-align:center"><br>Press Search to view Results.</p>
-      </div>
 
+              <!-- ===== Result section added by Man Tik Li (04/22/2021) =====-->
+              <label for="results" style="padding-bottom: 14px;"></label>
+              <ul>
+                <div id="test_results"></div>
+              </ul>
+      </div>
       </form>
       <div class="output">
-      <!-- ===== Result section added by Man Tik Li (04/22/2021) =====-->
-      <div>
-        <br>
-        <label for="results">
-          <h4 style="font-size: 40px">Results</h4>
-        </label>
-        <ul>
-        <div id="test_results"></div>
-        </ul>
-          </div>
-        </div>
+
+      </div>
     </div>
   </section>
   </main>
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div style="float: left; padding-left: 4%; padding-top: 1%">
+      <h3>Find out More</h3>
+      <ul style="list-style-type:none;">
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">FAQ's</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <div style="float: right; padding-top: 1%; padding-right: 1%;">
+      <h4>AS FEATURED IN</h4>
+      <img src="./assets/img/CCI.png" height="80px" width="350px" />
+    </div>
+  </footer>
 
 
 
@@ -147,24 +159,6 @@
   <!-- Radha and Rachel added JS Files -->
   <script src="assets/js/search_by_course.js"></script>
 
-  <!-- ======= Footer ======= -->
-  <footer style="background: rgba(20, 33, 61, 0.9); height: 140px;">
-    <div style="width: 100%; background: rgba(20, 33, 61, 0.9)">
-      <div style="float: left; padding-left: 4%; padding-top: 1%">
-        <h3>Find out More</h3>
-        <ul style="list-style-type:none;">
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">FAQ's</a></li>
-          <li><a href="#">Contact Us</a></li>
-        </ul>
-      </div>
-
-      <div style="float: right; padding-top: 1%; padding-right: 1%;">
-        <h4>AS FEATURED IN</h4>
-        <img src="./assets/img/CCI.png" height="80px" width="350px" />
-      </div>
-    </div>
-  </footer>
 </body>
 
 </html>

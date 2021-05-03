@@ -137,7 +137,7 @@ submit.onclick = (e) => {
     var index;
     var current_URI;
     // html is currently used to show the results to the courseRoles.html
-    var html = ``;
+    var html = `<label for="results"><h1 style="font-size: 40px">Results</h1></label><br>`;
 
     // for each object in the searchText (each course selected)
     for (index = 0; index < searchText.length; index++) {
