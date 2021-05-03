@@ -189,7 +189,7 @@ main {
   position: fixed;
   display: none;
   right: 15px;
-  bottom: 15px;
+  bottom: 155px;
   z-index: 995;
 }
 
@@ -592,10 +592,10 @@ main {
 #hero {
   width: 100%;
   background: url("../img/giphy.gif") top center;
-  background-size: cover;
+  background-size: auto;
   position: relative;
   padding-top: 71px;
-  padding-bottom: 160px;
+  padding-bottom: 30.1%;
   padding-right: 30px;
 }
 
@@ -610,7 +610,7 @@ main {
 }
 
 #hero .container {
-  padding-top: 9%;
+  padding-top: 18%;
   padding-right: 30px;
 }
 
