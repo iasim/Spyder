@@ -163,6 +163,7 @@ submit.onclick = (e) => {
 
     // send html to the front end (id = test_results)
     document.getElementById('test_results').innerHTML = html;
+    document.getElementById('submit').scrollIntoView({behavior: 'smooth' });
   };
 
 // collapsible_button_click is the function that is called onclick for the collapsible buttons
