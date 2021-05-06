@@ -134,6 +134,10 @@ h6 {
   font-family: "Playfair Display", serif;
 }
 
+main {
+  padding-bottom: 7%;
+}
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -187,8 +191,8 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  right: 15px;
-  bottom: 155px;
+  right: 5%;
+  bottom: 12%;
   z-index: 995;
 }
 
@@ -287,14 +291,16 @@ h6 {
 }
 
 #header .logo {
-  font-size: 28px;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  font-weight: 300;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  filter: drop-shadow(1px 1px 10px black);
+  image-rendering: -moz-crisp-edges;
+  /* Firefox */
+  image-rendering: -o-crisp-edges;
+  /* Opera */
+  image-rendering: -webkit-optimize-contrast;
+  /* Webkit (non-standard naming) */
+  image-rendering: crisp-edges;
+  -ms-interpolation-mode: nearest-neighbor;
+  /* IE (non-standard property) */
 }
 
 #header .logo a {
@@ -302,7 +308,19 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  height: 70px;
+  max-height: 70px;
+  width: 34%;
+  max-width: 34%;
+  image-rendering: -moz-crisp-edges;
+  /* Firefox */
+  image-rendering: -o-crisp-edges;
+  /* Opera */
+  image-rendering: -webkit-optimize-contrast;
+  /* Webkit (non-standard naming) */
+  image-rendering: crisp-edges;
+  -ms-interpolation-mode: nearest-neighbor;
+  /* IE (non-standard property) */
 }
 
 /*--------------------------------------------------------------
@@ -590,12 +608,22 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 140vh;
+  height: 100%;
   background: url("../img/giphy.gif") top center;
   background-size: cover;
   position: relative;
-  padding-right: 30px;
-  padding-top: 16px;
+  padding-top: 2%;
+  padding-bottom: 15%;
+  padding-left: 2%;
+  image-rendering: -moz-crisp-edges;
+  /* Firefox */
+  image-rendering: -o-crisp-edges;
+  /* Opera */
+  image-rendering: -webkit-optimize-contrast;
+  /* Webkit (non-standard naming) */
+  image-rendering: crisp-edges;
+  -ms-interpolation-mode: nearest-neighbor;
+  /* IE (non-standard property) */
 }
 
 #hero:before {
