@@ -29,6 +29,13 @@
   background-color: #7c160b;
 }
 
+.button22:active {
+      border: #7c160b;
+}
+.button22:focus {
+      border: #7c160b;
+}
+
 .search_button {
   background-color: #14213d;
   color: white;
@@ -49,30 +56,9 @@
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
-/* Reset Button */
-.reset_button {
-  background-color: #14213d;
-  color: white;
-  font-size: 16px;
-  padding: 10px 30px;
-  text-align: center;
-  margin: 4px 2px;
-  border: none;
-  cursor: pointer;
-  opacity: 0.9;
-}
-
-/* Reset Button Hover */
-.reset_button:hover {
-  opacity: 1;
-  transition-duration: 0.4s;
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
-    0 17px 50px 0 rgba(0, 0, 0, 0.19);
-}
-
 .form_content {
   margin-left: 10%;
-  padding-right: 50px;
+  margin-right: 10%;
 }
 
 .container2 {
@@ -82,8 +68,15 @@
   display: block;
 }
 
+#test_results{
+  padding-right: 10%;
+  padding-left: 6%;
+}
+
+
+
 /*--------------------------------------------------------------
-# ManTik Li
+# ManTik Li & Radha
 --------------------------------------------------------------*/
 /* collapsible (04/22/2021) */
 .collapsible {
@@ -98,6 +91,9 @@
   font-size: 15px;
 }
 
+.active, .collapsible:hover {
+  <!-- background-color: #555; -->
+}
 
 .description {
   padding: 0 18px;
@@ -115,7 +111,6 @@ body {
   background: #0c0b09;
   color: #fff;
   min-height: 100vh;
-  padding-bottom: 60px;
 }
 
 a {
@@ -134,6 +129,10 @@ h4,
 h5,
 h6 {
   font-family: "Playfair Display", serif;
+}
+
+main {
+  padding-bottom: 7%;
 }
 
 /*--------------------------------------------------------------
@@ -190,7 +189,7 @@ h6 {
   position: fixed;
   display: none;
   right: 15px;
-  bottom: 15px;
+  bottom: 155px;
   z-index: 995;
 }
 
@@ -592,12 +591,12 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 81vh;
   background: url("../img/giphy.gif") top center;
   background-size: cover;
   position: relative;
+  padding-top: 71px;
+  padding-bottom: 400px;
   padding-right: 30px;
-  padding-top: 16px;
 }
 
 #hero:before {
@@ -611,7 +610,7 @@ h6 {
 }
 
 #hero .container {
-  padding-top: 9%;
+  padding-top: 220px;
   padding-right: 30px;
 }
 
@@ -704,8 +703,6 @@ h6 {
   height: 120px;
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
-  -webkit-animation: pulsate-btn 2s;
-  animation: pulsate-btn 2s;
   -webkit-animation-direction: forwards;
   animation-direction: forwards;
   -webkit-animation-iteration-count: infinite;
@@ -776,40 +773,17 @@ h6 {
   }
 }
 
-@-webkit-keyframes pulsate-btn {
-  0% {
-    transform: scale(0.6, 0.6);
-    opacity: 1;
-  }
-  100% {
-    transform: scale(1, 1);
-    opacity: 0;
-  }
-}
-
-@keyframes pulsate-btn {
-  0% {
-    transform: scale(0.6, 0.6);
-    opacity: 1;
-  }
-  100% {
-    transform: scale(1, 1);
-    opacity: 0;
-  }
-}
-
 /*--------------------------------------------------------------
 # Hero22 Section
 --------------------------------------------------------------*/
 
 #hero22 {
   width: 100%;
-  height: 100vh;
   background: url("../img/giphy.gif") top center;
   background-size: cover;
   position: relative;
-  padding-right: 30px;
-  padding-top: 16px;
+  padding-top: 71px;
+  padding-bottom: 140px;
 }
 
 #hero22:before {
@@ -823,10 +797,8 @@ h6 {
 }
 
 #hero22 .container {
-  padding-top: 5%;
-  padding-right: 30px;
+  padding-top: 9%;
   max-width: 992px;
-  max-height: 1025px;
 }
 
 @media (max-width: 992px) {
@@ -841,16 +813,13 @@ h6 {
   font-size: 51px;
   font-weight: 700;
   line-height: 65px;
-  color: #fff;
   font-family: "Poppins", sans-serif;
 }
 
 #hero22 h1 span {
-  color: #cda45e;
 }
 
 #hero22 h2 {
-  color: #eee;
   margin-bottom: 10px 0 0 0;
   font-size: 24px;
 }
@@ -918,8 +887,6 @@ h6 {
   height: 120px;
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
-  -webkit-animation: pulsate-btn 2s;
-  animation: pulsate-btn 2s;
   -webkit-animation-direction: forwards;
   animation-direction: forwards;
   -webkit-animation-iteration-count: infinite;
@@ -944,7 +911,6 @@ h6 {
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translateX(-40%) translateY(-50%);
   width: 0;
   height: 0;
   border: none;
@@ -989,35 +955,12 @@ h6 {
     line-height: 48px;
   }
 }
-
-@-webkit-keyframes pulsate-btn {
-  0% {
-    transform: scale(0.6, 0.6);
-    opacity: 1;
-  }
-  100% {
-    transform: scale(1, 1);
-    opacity: 0;
-  }
-}
-
-@keyframes pulsate-btn {
-  0% {
-    transform: scale(0.6, 0.6);
-    opacity: 1;
-  }
-  100% {
-    transform: scale(1, 1);
-    opacity: 0;
-  }
-}
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding-bottom: 10%;
   overflow: hidden;
-  max-height: inherit;
 }
 
 .section-bg {
@@ -1036,7 +979,6 @@ section {
   margin: 0 0 5px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #aaaaaa;
   font-family: "Poppins", sans-serif;
 }
 
@@ -1055,7 +997,6 @@ section {
   font-size: 36px;
   font-weight: 700;
   font-family: "Playfair Display", serif;
-  color: #cda45e;
 }
 
 /*--------------------------------------------------------------
@@ -1248,12 +1189,22 @@ section {
   }
 }
 
+#footer {
+  background: rgba(20, 33, 61, 1);
+  position:fixed;
+  bottom:0;
+  left:0;
+  right: 0;
+  width: 100%;
+  height: 150px;
+}
 /*--------------------------------------------------------------
 # Footer
---------------------------------------------------------------*/
 #footer {
   padding-top: 50px;
-  width: 100%
+  width: 100%;
+  background-color: rgba(20, 33, 61, 0.9);
+  height: 160px;
   font-size: 14px;
   position: fixed;
   bottom: 0;
@@ -1429,12 +1380,24 @@ section {
   color: white;
 }
 
+.collapsible.p{
+  vertical-align: middle;
+}
+
 .card.p {
   vertical-align: baseline;
 }
 
 .card-body {
   height: 40px;
+  padding: 0.5rem;
+  padding-top: 1%m;
+  font-size: 16px;
+  color: white;
+}
+
+.collapsible {
+  height: 50px;
   padding: 0.5rem;
   padding-top: 0rem;
   font-size: 15px;
@@ -1448,4 +1411,11 @@ section {
 
 .select {
   height: 30px;
+}
+
+div.output{
+}
+
+div.output.collapsible{
+  color: white;
 }

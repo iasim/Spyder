@@ -30,7 +30,7 @@
 
 </head>
 
-<body style="max-height: 1010px">
+<body>
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
@@ -38,7 +38,7 @@
 
       <!--<h1 class="logo mr-auto"><a href="index.html">SPYDER</a></h1> -->
       <!-- Uncomment below if you prefer to use an image logo -->
-      <a href="index-page.html" class="logo mr-auto"><img src="assets/img/Logo.png" alt="" class="img-fluid"></a>
+      <a href="home-page.html" class="logo mr-auto"><img src="assets/img/Logo.png" alt="" class="img-fluid"></a>
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
@@ -51,8 +51,8 @@
                 Search
               </button>
               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="course.html?selector=Course">Search By Course</a>
-                <a class="dropdown-item" href="role.html?selector=Role">Search By Role</a>
+                <a class="dropdown-item" href="course.html">Search By Course</a>
+                <a class="dropdown-item" href="role.html">Search By Role</a>
               </div>
             </div>
           </li>
@@ -62,20 +62,21 @@
     </div>
   </header><!-- End Header -->
 
+
   <!-- ======= Hero Section ======= -->
   <section id="hero22" class="d-flex align-items-center">
 
     <div style="margin: auto; line-height: 1.5;">
-      <div class="container position-relative text-center text-lg-left" data-aos="zoom-in" data-aos-delay="100">
+      <div class="container position-relative text-lg-left" data-aos="zoom-in" data-aos-delay="100">
 
-        <main style="max-height: 940px">
+        <main>
 
           <section class="box">
             <form id=course_form method="get">
               <div class="container2">
                 <div class="button_row" style="text-align:center;">
-                  <button id="bttn"> Course</button>
-                  <button id="bttn2">Role</button>
+                  <button onclick="location.href = 'course.html';" type="button" class="button22">Course</button>
+                  <button onclick="location.href = 'role.html';" type="button" class="button22">Role</button>
                 </div>
                 <p style="text-align:center">Want to change your search? Click the button above!</p>
                 <hr>
@@ -83,16 +84,14 @@
                 <!-- ======= Search added by Radha ======= -->
                 <form>
                   <div class="form_content">
-                    <!-- Test Results div just to test current results; will remove later -->
-                    <div id="test_results">Test Results</div>
-                    <label for="course"><b>Course</b></label>
+                    <label for="course"><b>Search by Role</b></label>
                     <div class="form-search">
-                      <input type="search" id="search" class="form-control form-control-lg" autocomplete="off" placeholder="Enter Course" autofocus="on">
+                      <input type="search" id="search" class="form-control form-control-lg" autocomplete="off" placeholder="Enter Role (ex: Cyber Crime Investigator)" autofocus="on">
                     </div>
                     <div id="match-list"></div>
                     <br>
                     <div class="form-selection">
-                      <label for="selection"><b>Selected</b></label>
+                      <label for="selection"><b>Selected Roles</b></label>
                       <!--<input type="text" id="list" class="form-control form-control-lg">-->
                       <select id="list" name="list" class="form-control form-control-lg" multiple></select>
 
@@ -100,93 +99,50 @@
                 </form>
                 <!-- ======= end Search ======= -->
 
-
                 <!-- ======= Buttons ========== -->
                 <br>
                 <center>
                   <button type="button" class="search_button" id="submit">Search</button>
-                  <button type="reset" class="reset_button">Reset</button>
-                  <button id="btnRemove" class="search_button">Remove Selected Framework</button>
+                  <button id="btnRemove" class="search_button">Remove Selected</button>
                 </center>
-
                 <!-- ======= end Buttons ========== -->
 
               </div>
 
-              <p style="text-align:center"><br>To view the result, please press search button to continue.</p>
+              <p style="text-align:center"><br>Press Search to view Results.</p>
+
+              <!-- ===== Result section added by Man Tik Li (04/22/2021) =====-->
+              <label for="results" style="padding-bottom: 14px;"></label>
+              <ul>
+                <div id="test_results"></div>
+              </ul>
       </div>
-
       </form>
-
-      <!-- ===== Result section added by Man Tik Li (04/22/2021) =====-->
-      <div>
-        <br>
-        <label for="results">
-          <h1 style="font-size: 40px">Results</h1>
-        </label>
-        <div id="results" style="max-height: 200px; overflow: auto;">
-
-          <!-- ====== Collapsibles added by Man Tik Li (04/22/2021) ===== -->
-          <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Course1</button>
-          <div id="demo" class="collapse">
-            <p>This class helps ...</p>
-          </div>
-          <br>
-          <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Course2</button>
-          <div id="demo" class="collapse">
-            <p>This class helps ...</p>
-          </div>
-          <br>
-          <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Course3</button>
-          <div id="demo" class="collapse">
-            <p>This class helps ...</p>
-          </div>
-          <br>
-          <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Course4</button>
-          <div id="demo" class="collapse">
-            <p>This class helps ...</p>
-          </div>
-          <br>
-          <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Course5</button>
-          <div id="demo" class="collapse">
-            <p>This class helps ...</p>
-          </div>
-          <br>
-          <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Course6</button>
-          <div id="demo" class="collapse">
-            <p>This class helps ...</p>
-          </div>
-
-        </div>
-
   </section>
-  </div>
-  </div>
   </main>
+  </div>
+  </div>
   </section>
 
+  <a href="#" class="back-to-top" style="display: none;"><i class="bx bx-up-arrow-alt"></i></a>
 
   <!-- ======= Footer ======= -->
-  <footer style="background: rgba(20, 33, 61, 0.9); height: 160px;">
-    <div style="width: 100%; background: rgba(20, 33, 61, 0.9)">
-      <div style="float: left; padding-left: 4%; padding-top: 1%">
-        <h3>Find out More</h3>
-        <ul style="list-style-type:none;">
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">FAQ's</a></li>
-          <li><a href="#">Contact Us</a></li>
-        </ul>
-      </div>
+  <footer id="footer">
+    <div style="float: left; padding-left: 4%; padding-top: 1%">
+      <h3>Find out More</h3>
+      <ul style="list-style-type:none; padding-top: 5%">
+        <li><a href="http://www.cci.drexel.edu/SeniorDesign/2020_2021/cybersecuritydatamodel/index.html">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
 
-      <div style="float: right; padding-top: 1%; padding-right: 1%;">
-        <h4>AS FEATURED IN</h4>
-        <img src="./assets/img/CCI.png" height="80px" width="350px" />
-      </div>
+    <div style="float: right; padding-top: 1%; padding-right: 1%;">
+      <h3>AS FEATURED IN</h3>
+      <a href="https://drexel.edu/cci/">
+      <img src="./assets/img/CCI.png" height="80px" width="350px">
+    </a>
     </div>
   </footer>
-
-  <div id="preloader"></div>
-
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
@@ -202,21 +158,7 @@
   <script src="assets/js/main.js"></script>
 
   <!-- Radha and Rachel added JS Files -->
-  <script src="assets/js/search.js"></script>
-  <script>
-    window.addEventListener('load', (event) => {
-          const queryString = window.location.search
-          if(queryString.includes('Course')){
-              document.getElementById('bttn').classList.add('asim334')
-              document.getElementById('bttn2').classList.add('button22')
-          }
-
-          if(queryString.includes('Role')){
-              document.getElementById('bttn2').classList.add('asim334')
-              document.getElementById('bttn').classList.add('button22')
-          }
-  });
-      </script>
+  <script src="assets/js/search_by_role.js"></script>
 
 </body>
 
