@@ -137,7 +137,7 @@ const searchURI = async searchText => {
   var index;
   var current_URI;
   // html is currently used to show the results to the courseRoles.html
-  var html = `<p>Results</p>`;
+  var html = `<label for="results"><h1 style="font-size: 40px">Results</h1></label><br>`;
 
   // for each object in the searchText (each course selected)
   for (index = 0; index < searchText.length; index++) {
@@ -147,18 +147,33 @@ const searchURI = async searchText => {
     results.push.apply(results, json_GraphDB.filter( record => record.NICE_Role_ID.value === current_URI));
   }
 
+  var unique_results = [];
   // for each JSON object in the results array
   for (index = 0; index < results.length; index++) {
-    // add on to html with each NICE Role Title
-    html += `<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">${results[index].Course_Name.value}</button>
-    <div id="demo" class="collapse">
+    // if the role isn't already in being displayed, then display it
+    if (!unique_results.includes(results[index].Course_Name.value)) {
+      unique_results.push(results[index].Course_Name.value);
+      html += `<button type="button" class="collapsible_button card card-body mb-1" onclick="collapsible_button_click(this.id)" id="${results[index].Course_Name.value}">${results[index].Course_Name.value}</button>
+      <div class="collapse">
       <p>${results[index].Course_Description.value}</p>
-    </div>
-    <br>`
-  }
+      </div>
+      <br>`
+    };
+  };
 
   // send html to the front end (id = test_results)
-  document.getElementById('results').innerHTML = html;
+  document.getElementById('test_results').innerHTML = html;
+  document.getElementById('submit').scrollIntoView({behavior: 'smooth' });
+};
 
-  // will need to check for no duplicates in resulting NICE Work Roles
+// collapsible_button_click is the function that is called onclick for the collapsible buttons
+function collapsible_button_click(btn_ID) {
+    document.getElementById(btn_ID).classList.toggle("active");
+    var collapse = document.getElementById(btn_ID).nextElementSibling;
+    if (collapse.style.display === "block") {
+      collapse.style.display = "none";
+    } else {
+      collapse.style.display = "block";
+    }
+
 };
