@@ -137,7 +137,7 @@ const searchURI = async searchText => {
   var index;
   var current_URI;
   // html is currently used to show the results to the courseRoles.html
-  var html = `<label for="results"><h1 style="font-size: 40px">Results</h1></label><br>`;
+  var html = ``;
 
   // for each object in the searchText (each course selected)
   for (index = 0; index < searchText.length; index++) {
@@ -161,7 +161,11 @@ const searchURI = async searchText => {
     };
   };
 
+  var num_results = `<div><label for="results"><h1 style="font-size: 40px">${unique_results.length} Results</h1></label><br></div>
+  <div>The role(s) you selected are connected to ${unique_results.length} courses.<br>
+  Click on a course title to learn more about it!</div><br>`;
   // send html to the front end (id = test_results)
+  document.getElementById('num_results').innerHTML = num_results;
   document.getElementById('test_results').innerHTML = html;
   document.getElementById('submit').scrollIntoView({behavior: 'smooth' });
 };

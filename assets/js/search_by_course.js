@@ -137,7 +137,7 @@ submit.onclick = (e) => {
     var index;
     var current_URI;
     // html is currently used to show the results to the courseRoles.html
-    var html = `<label for="results"><h1 style="font-size: 40px">Results</h1></label><br>`;
+    var html = ``;
 
     // for each object in the searchText (each course selected)
     for (index = 0; index < searchText.length; index++) {
@@ -161,7 +161,11 @@ submit.onclick = (e) => {
       };
     };
 
+    var num_results = `<div><label for="results"><h1 style="font-size: 40px">${unique_results.length} Results</h1></label><br></div>
+    <div>The course(s) you selected are preparing you for ${unique_results.length} work roles.<br>
+    Click on a work role title to learn more about it!</div><br>`;
     // send html to the front end (id = test_results)
+    document.getElementById('num_results').innerHTML = num_results;
     document.getElementById('test_results').innerHTML = html;
     document.getElementById('submit').scrollIntoView({behavior: 'smooth' });
   };
