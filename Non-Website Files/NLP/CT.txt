@@ -1,0 +1,440 @@
+SE 181 Introduction to Software Engineering and Development 3.0 Credits
+Introduces advanced software development fundamentals including memory management, typing and scoping, datastores, software testing, and security, as well as user-centric design and user experience. This course will be taught using a specified programming language of instruction.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: CS 172 [Min Grade: C]
+SE 210 Software Specification and Design I 3.0 Credits
+Study of the principles, practices, and techniques used to gather system requirements and document them in a requirements specification. Includes techniques for requirements discovery such as user interviews and prototyping. Introduces approaches for organizing and expressing software requirements in a requirements specification.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: SE 103 [Min Grade: C] or CS 133 [Min Grade: C] or CS 172 [Min Grade: C] or CS 176 [Min Grade: C]
+SE 211 Software Specification and Design II 3.0 Credits
+Continues study of requirements with increasing emphasis on converting requirements into a software system design. Presents alternate approaches, techniques for evaluating specifications, specification and design tools, and use of specifications to develop system-level tests.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: SE 210 [Min Grade: C]
+SE 310 Software Architecture I 3.0 Credits
+Study of macro-level software system architectures with an emphasis on approaches to interconnection and distribution of current and emerging architectural styles.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: CS 265 [Min Grade: D] and CS 260 [Min Grade: D]
+SE 311 Software Architecture II 3.0 Credits
+Continues discussion of software architecture with a focus on micro-level architecture including patterns, frameworks, and component-based software engineering, and commercial off-the-shelf software.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: SE 310 [Min Grade: D] or CS 350 [Min Grade: D]
+SE 320 Software Verification and Validation 3.0 Credits
+Presents theory and practice of software testing. Covers structural testing including such topics as path testing, dataflow testing, logic based testing, syntax testing, program slicing, mutation testing, fault injection, program perturbation, and testing tools. Discusses techniques for test construction and test suite evaluation, and validation against requirements and design models. Also covers methods of inspection and review at various phases of the software lifecycle.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: CS 260 [Min Grade: D]
+SE 410 Software Evolution 3.0 Credits
+Covers issues related to change in software systems. Addresses principles and techniques of corrective software maintenance, software enhancements, and software product family. Introduces students to issues of change in large software systems including configuration control, change and product management.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: CS 260 [Min Grade: D]
+INFO 101 Introduction to Computing and Security Technology 3.0 Credits
+Explores the infrastructure that makes current information and communication technology possible. Introduces foundational concepts of servers, networks, databases, and the Web. Addresses security and usability considerations that cut across all computing technology. Approaches computing technology from the perspective of system administrators who plan, manage, operate, and monitor large scale computing infrastructure. Covers emerging technologies including pervasive computing, continuous integration, virtualization, and the Internet of things. Explores professional opportunities in this high demand area.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+INFO 102 Introduction to Information Systems 3.0 Credits
+Introduces students to major types of information systems and their development and their use in organizations. Emphasizes ways in which information systems can be used to help individuals and organizations meet their goals. Assumes basic knowledge of computing concepts.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+INFO 103 Introduction to Data Science 3.0 Credits
+A first course in data science. Introduces data science as a field, describes the roles and services that various members of the community play and the life cycle of data science projects. Provides an overview of common types of data, where they come from, and the challenges that practitioners face in the modern world of �Big Data.� Provides an introduction to the interdisciplinary mixture of skills that the practice requires.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+INFO 110 Introduction to Human-Computer Interaction 3.0 Credits
+Introduces the field of human-computer interaction, with a broad scope that exposes students to a variety of approaches for conceptualizing, designing, and evaluating user interfaces and user experiences. Focuses on using design thinking to define problems and solutions, and developing skills for critiquing interactive systems. Topics include interaction design principles, user experience research, usability evaluation, and novel interaction paradigms.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+INFO 150 Introduction to Ubiquitous Computing 3.0 Credits
+Introduces the field of ubiquitous computing, which refers to the modern era of computers embedded into everything we do, everywhere we are. From smartphones to smart homes, students will explore what makes an object or device �smart�. Topics include privacy, interfaces, location, and context-awareness. Engages students of any background in reflecting on the role of ubiquitous computing in everyday life, and thinking critically about impacts of present and future technologies.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+INFO 151 Web Systems and Services I 3.0 Credits
+Introduces technologies used to build leading-edge application systems and services on the World Wide Web. Coverage includes a selection of Web components such as mark-up and scripting languages, and server components of Web applications. Introduces Web programming using pair or small team programming activities.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+INFO 152 Web Systems and Services II 3.0 Credits
+Explores techniques used to build leading-edge application systems on the World Wide Web. Topics include Web server components of Web applications, and basic database processing. Includes Web programming using pair or small team programming activities.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: INFO 151 [Min Grade: D] or CS 140 [Min Grade: D]
+INFO 153 Applied Data Management 3.0 Credits
+Explores technologies used to gather, organize, store, and retrieve data in various forms. Focuses on using databases and various file formats in software systems. Topics include file and database access, data munging and management, and data structures. Includes data management software development using pair or small team programming activities.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: INFO 152 [Min Grade: D]
+INFO 200 Systems Analysis I 3.0 Credits
+Study of the principles, practices and tools of information systems analysis and design. Emphasis on learning pragmatic aspects of working as a systems analyst and employing the tools of systems analysis and design.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: INFO 101 [Min Grade: D]
+INFO 202 Data Curation 3.0 Credits
+This class explores the full range of data curation lifecycle activities, from the design of good data through metadata creation, ingest, data management, access, implementation, and reuse. It will help students develop a foundation in the curation of digital information (including data), and will enable students to understand the role and objectives of curation for organizations and projects that use data to analyze, share and provide access and re-use to collections of their digital information.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: INFO 103 [Min Grade: D]
+INFO 210 Database Management Systems 3.0 Credits
+Focuses on how to design databases for given problems, and how to use database systems effectively. Topics include database design techniques using the entity-relationship approach, techniques of translating the entity-relationship diagram into a relational schema, relational algebra, commercial query languages, and normalization techniques.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: INFO 101 [Min Grade: D] or SE 210 [Min Grade: D]
+INFO 212 Data Science Programming I 3.0 Credits
+Introduces the main tools and ideas in the data scientist�s toolbox. Focuses writing interactive and programming code for extracting, cleansing, wrangling, transforming, reshaping, and analyzing data. Covers practical tools and ideas including Linux command line, version control, git, and interactive programming. Studies various Python packages for high performance data analysis.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: INFO 153 [Min Grade: D] or CS 172 [Min Grade: D]
+INFO 213 Data Science Programming II 3.0 Credits
+Discusses the latest analytic and predictive techniques to solve real world business problems. Focuses on practice rather than theory by using existing Python libraries and tools to produce solutions. Covers practical Python implementations of the basic concepts in mathematics and statistics that are at the core of data science. Introduces Python libraries for the most common models and techniques for data analytics such as clustering, classification, regression, and decision trees.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: INFO 212 [Min Grade: D] and STAT 201 [Min Grade: D]
+INFO 215 Social Aspects of Information Systems 3.0 Credits
+Introduces social issues involved in information systems design and use, e.g., personal computing, telecommuting, computers in education, the privacy and security of stored and transmitted information, and information ownership. Explores the interaction of high technology, employment, and class structure.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+INFO 250 Information Visualization 3.0 Credits
+Introduces the foundation and the state of the art of information visualization. Explores and reflects on the design, application, and evaluation of a diverse range of information systems. Demonstrates how a number of common types of information can be visually, intuitively and interactively represented. Provides a first-hand experience of visualizing a variety of realistic data types.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+INFO 300 Information Retrieval Systems 3.0 Credits
+The theoretical underpinnings of information retrieval are covered to give the student a solid base for further work with retrieval systems. Emphasis is given to the process of textual information for machine indexing and retrieval. Aspects of information retrieval covered include document description, query formulation, retrieval algorithms, query matching, and system evaluation.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: (INFO 153 [Min Grade: D] or CS 172 [Min Grade: D]) and INFO 102 [Min Grade: D]
+INFO 310 Human-Centered Design Process & Methods 3.0 Credits
+Introduces the student to the process of human-centered design of interactive user interfaces. Teaches some of the basic approaches to design and evaluation of interactive user interfaces. Delivers practical advice on interaction design challenges. Applies human-centered design principles in the design of the user interface to an interactive computer system.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: INFO 110 [Min Grade: D] or INFO 151 [Min Grade: D] or CS 171 [Min Grade: D] or ECE 105 [Min Grade: D] or ECE 203 [Min Grade: D]
+INFO 315 Advanced Database Management Systems 3.0 Credits
+This course will cover advanced database systems and concepts necessary in understanding modern database technologies beyond INFO 210 (Database Management Systems). Major topics include database programming in PL/SQL, including stored procedures, functions, triggers and packages, business intelligence, data warehouses, OLAP, ETL, data lake, big data architectures, and principles & practices of NoSQL databases.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: INFO 210 [Min Grade: D]
+INFO 323 Cloud Computing and Big Data 3.0 Credits
+Provides overview and insights into technologies, opportunities, and challenges related to cloud computing and big data. Covers concepts of scalable data analysis, predictive modeling, and graph analysis through specific cloud computing platforms. Introduces the components and tools in cloud computing ecosystems associated with big data solutions as well as NoSQL databases. Through hands-on instructions and assignments, students will develop working knowledge of practical tools and strategies of processing massive data sets using the map/reduce framework.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: INFO 103 [Min Grade: D] and INFO 210 [Min Grade: D] and INFO 212 [Min Grade: D]
+INFO 324 [WI] Team Process and Product 3.0 Credits
+Provides hands-on experience with working in small teams to apply processes and produce products typical of current best practices in computing and information technology organizations. Allows students to develop an integrated understanding of project life cycle phases. Examines issues of team organization and operation, problem solving, and communication.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: (INFO 153 [Min Grade: D] or CS 172 [Min Grade: D]) and INFO 200 [Min Grade: D]
+INFO 332 Exploratory Data Analytics 3.0 Credits
+In this course students learn the essential exploratory techniques for summarizing and analyzing data. The course discusses how to install and configure software necessary for a statistical programming environment. It covers practical issues in statistical computing, which includes programming in R and how to use R for effective data analysis. The course covers the plotting systems in R and some of the basic principles of constructing data graphics.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: INFO 103 [Min Grade: D] and STAT 201 [Min Grade: D]
+INFO 350 Visual Analytics 3.0 Credits
+Introduces the aims, principles, and practical tools of visual analytics for analytic reasoning and decision making. Characterizes key issues concerning with uncertainty, incomplete and conflict information. Examines the role of interactive visual analytic reasoning processes. Provides opportunities to use advanced interactive visual analytic tools.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Restrictions: Cannot enroll if classification is Freshman
+Prerequisites: INFO 250 [Min Grade: D] and INFO 212 [Min Grade: D]
+INFO 355 Systems Analysis II 3.0 Credits
+A project-oriented course that discusses software engineering and advanced techniques of requirements modeling, prototyping and software design, particularly utilizing object-oriented techniques. The course builds upon Systems Analysis I, requiring students to apply their knowledge of systems analysis tools and techniques.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: INFO 210 [Min Grade: D] and INFO 200 [Min Grade: D]
+INFO 365 Database Administration I 3.0 Credits
+Database Administration is a continuation of Database Management Systems, and includes the following: advanced ERD techniques, database management system internals and advanced elements of the SQL language, as well as stored procedures and triggers, specifically as demonstrated in the Oracle implementation.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: INFO 210 [Min Grade: D] and (CS 171 [Min Grade: D] or CS 175 [Min Grade: D] or INFO 152 [Min Grade: D] or SE 102 [Min Grade: D])
+INFO 366 Database Administration II 3.0 Credits
+Introduces the principles and practices of database administration, particularly as they apply to commercial-grade relational database management systems. The course will include, but not be limited to, installation, systems tuning, application tuning, security, user management, backup and recovery. To this end, internals of RDBMSs will be discussed, using major commercial RDBMSs as examples. Distributed database issues will also be discussed. As time permits, other advanced issues will be addressed, such as issues of object and object-relational databases.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: INFO 365 [Min Grade: D]
+INFO 371 Data Mining Applications 3.0 Credits
+Introduces students to basic data mining approaches using machine learning tools. Focuses on machine learning algorithms for information inference and knowledge discovery from data. Covers major applications in data/text/web processing, analysis and mining.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Restrictions: Cannot enroll if classification is Freshman
+Prerequisites: STAT 201 [Min Grade: D]
+INFO 375 Introduction to Information Systems Assurance 3.0 Credits
+Introduction to the problem of security for modern information systems. Provides an overview of threats, both human and computer, to the security of an organization's data and information resources. Explores how systems may be made less vulnerable and how to respond. Examines issues of personal security in an electronic world.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: INFO 200 [Min Grade: D] and CT 140 [Min Grade: D]
+INFO 405 Social and Collaborative Computing 3.0 Credits
+This course provides an introduction to the ways that computing systems support social interaction and productive collaboration. Students will learn concepts from social science theory and research and use these concepts to analyze systems and imagine novel systems designs that meet the needs of groups and organizations. Students will spend time examining, using, and participating in social and collaborative computing environments such as collaboration tools, crowdwork platforms, social media, and various online communities.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: INFO 310 [Min Grade: D] or INFO 110 [Min Grade: D]
+INFO 420 Software Project Management 3.0 Credits
+The objective of this course is to study project management in the context of software systems development. The course will cover the processes, contexts, metrics, planning and management concerns of managing projects for modern software systems.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Restrictions: Can enroll if classification is Junior or Senior.
+Prerequisites: (INFO 200 [Min Grade: D] or SE 210 [Min Grade: D]) and (CS 172 [Min Grade: D] or CS 265 [Min Grade: D] or INFO 152 [Min Grade: D] or SE 103 [Min Grade: D] or CS 176 [Min Grade: D])
+INFO 432 Advanced Data Analytics 3.0 Credits
+Focuses on data analytic techniques that aim to understand data, discover knowledge, and learn from data. Presents the fundamentals of statistical inference and data analytic techniques in a practical approach. Provides methods on how to effectively collect data, analyze, understand data, and estimate some important quantities. Covers the key ideas in advanced functionality available in the R packages for conducting data analytics.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: INFO 332 [Min Grade: D] and INFO 371 [Min Grade: D]
+INFO 440 Social Media Data Analysis 3.0 Credits
+Explores data analytic methods for analyzing, understanding, and visualizing emerging trends on social media from social, organizational and cultural perspectives. Students will analyze various content materials and activities on social media to discern the relationship between online behavior and underlying social phenomena.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: INFO 212 [Min Grade: D] or CS 172 [Min Grade: D]
+INFO 442 Data Science Projects 3.0 Credits
+This course is a capstone course that provides an opportunity for students to apply a data science approach to solve domain problems. Students form a team and challenge a real-world project of their choices. Each team selects a domain and a data set, and then applies a data science approach to actual situations for real-world decision making. Each team is required to come up with a scientific question with a business value, perform an explorative data analysis, develop a data science model, evaluate the results, and communicate the results with audience.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: INFO 213 [Min Grade: D] and INFO 371 [Min Grade: D] and INFO 332 [Min Grade: D]
+CT 140 Network Administration I 3.0 Credits
+Students gain an understanding of terminology, technology, and issues involved in implementing networks. Topic include: understanding the OSI 7 layer model; concepts of servers and clients; network hardware/software functions; basics of TCP/IP protocol, main types of network topologies (bus, ring, star and mesh); and share and access network resources (files, printers, etc.).
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: INFO 101 [Min Grade: D]
+CT 200 Server I 3.0 Credits
+Introduces administration and management of Windows operating system. Topics include operating systems installation, configuration, directory services, data storage subsystems, troubleshooting and problem determination of server. In addition the course will cover redundancy, upgrading, and disaster recovery.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: INFO 101 [Min Grade: D]
+CT 201 Information Technology Security I 3.0 Credits
+Surveys information security topics; familiarizes students with the technologies and policies that support confidentiality, integrity and availability. Industry standards for security architecture, operational security, policy and governance are covered and provides the foundations for further study of information security.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+CT 210 Open Server I 3.0 Credits
+Introduces administration of open source operating systems and management of open servers. Topics covered include the boot process and fundamental server concepts related to processing, memory and storage. Addresses use of a command line interface to manage processes, modify file permissions, examine configuration settings, and run utilities for server administration.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+CT 212 Computer Forensics I: Fundamentals 3.0 Credits
+This course presents the theory, methodology and hands-on labs necessary for students to become competent in the basics of computer forensics. Topics covered include: understanding computer investigations, the investigators, laboratory, current forensics tools, digital evidence controls and processing crime.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+CT 250 IT Security Awareness 3.0 Credits
+This course explores the challenges IT security teams face when trying to mitigate threats targeting the human element within their organizations. IT Security Awareness introduces students to techniques and concepts that threaten security of organizations by targeting their human assets.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+CT 301 Information Technology Security II 3.0 Credits
+Focuses on securing digital infrastructure by examining threats, vulnerabilities, and technologies used to prevent cyber attacks such as: encryption, security devices, software, authentication and identity protocols. Hands-on labs demonstrate the use of tools and techniques discussed in the course.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: CT 140 [Min Grade: D] and CT 201 [Min Grade: D]
+CT 310 Open Server II 3.0 Credits
+Presents an in depth study of server administration utilizing the Linux Operating System. Topics covered include: shell environments, shell program structures, executions, variables, positional parameters, special shell variables, and shell programming statements. In addition the course will examine shell conditional statements, looping constructs, interrupt handling, and debugging tools.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: CT 210 [Min Grade: D]
+CT 312 Access Control and Intrusion Detection Technology 3.0 Credits
+Fundamental theory and methodology of intrusion detection systems. Using intrusion detection systems to secure corporate and personal networks against attacks. Hands-on laboratory experience using an in-depth, open-source network intrusion detection system.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: CT 420 [Min Grade: D] or CT 301 [Min Grade: D]
+CT 315 Security Management Practice 3.0 Credits
+Managerial issues involved in the daily operations of an IT Security department. Topics include staffing, budgets, job descriptions, long term planning, resource allocation, training of security personnel, motivational techniques, interaction with other departments including upper management.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Restrictions: Cannot enroll if classification is Freshman or Pre-Junior or Sophomore
+CT 320 Server II 3.0 Credits
+Presents an in depth study of Windows server operating system and active directory. Topics include installation, implementation, administration of resources, monitoring, troubleshooting techniques. In addition, the course will examine Windows based network management tools, high availability and disaster recovery.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: CT 200 [Min Grade: D]
+CT 330 Network Administration II 3.0 Credits
+Course covers both theoretical knowledge and hands-on exercises for networking using CISCO hardware. Topics include: Extending Switched Networks with VLANS; Determining IP Traffic with Access Lists; Establishing Point-to-Point Connections; and Establishing Frame Relay Connections.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: CT 140 [Min Grade: D]
+CT 335 Mobile Applications 3.0 Credits
+Provides students with an understanding of mobile technologies and the components for building and testing mobile applications. Topics covered include: mobile frameworks, plugins, mobile device storage, visual design and user interfaces for mobile applications, device sensors, and compression.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: CT 230 [Min Grade: D] or INFO 152 [Min Grade: D] or CS 265 [Min Grade: D]
+CT 353 Virtual Environments and Cloud Security 3.0 Credits
+This course explores various models of virtual servers, storage, networks and levels of cloud computing. Students will learn how to apply best practice solutions to secure virtual environments and the different levels of cloud computing.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: CT 200 [Min Grade: D] and CT 210 [Min Grade: D]
+CT 355 Wireless Network Security Technology 3.0 Credits
+Theory, methodology and hands-on labs relating to the unique security issues of Wireless Networks. Limitations and risks of Wireless Networks. Use of audit and exploit tools to discover security flaws. Protocol and signal vulnerabilities. Methods to secure such vulnerabilities.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: CT 420 [Min Grade: D] or CT 301 [Min Grade: D]
+CT 362 Network Auditing Tools 3.0 Credits
+Theory, methodology and hands-on labs relating to Network Auditing. The course relies on advanced multi-functional network auditing tools to uncover Network Security problems, with the purpose of eliminating these vulnerabilities.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: CT 420 [Min Grade: D] or CT 301 [Min Grade: D]
+CT 382 Applied Cryptography 3.0 Credits
+This course presents the theory, methods, strengths, weaknesses, and effective strategies necessary for students to acquire a fundamental knowledge of Cryptography and Stenography. This is a hands-on course utilizing several tools and software programs. Emphasis is placed on formulating effective strategies, such as when and how to protect computer data.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+CT 393 Information Technology Security Risk Assessment 3.0 Credits
+This course addresses risk management methodology, the specific procedures for determining assets valuation, vulnerabilities, and threats. Risk migration methods that security professional use to protect valuable IT assets will also be studies. Issues, designed to foster critical thinking, are explored, as well as the standardized approaches to risk management.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+CT 400 Network Security 3.0 Credits
+This class focuses on the security aspects of networks. Topics covered: intrusion detection, VPN, and Firewalls. This course is designed to provide students with the necessary skills and information aligned with Securing Networks.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: CT 330 [Min Grade: D]
+CT 412 Information Technology Security Policies 3.0 Credits
+This course presents the theory and legal issues necessary for students to acquire fundamental knowledge of Computer Policies for information Security. Topics covered include: E-mail, Employee Privacy, Labor Organization Activities (Fair Use), Avoiding Discrimination and Harassment, Copyright, Defamation, Spamming, Trade Secrets & Confidential Information, Attorney-Client communication via E-mail, Computer Security, Preventing Waste of a Computer Resources, Essentials for Good Policy, and Ensuring Compliance.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+CT 414 Ethical Hacking and Penetration Testing 3.0 Credits
+This course provides students with the opportunity to learn hands-on techniques to protect and secure their information-critical infrastructure against cyber-attacks, viruses, worms, and other system cyber vulnerability weaknesses that pose significant threat to organizational systems.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Restrictions: Can enroll if classification is Junior or Senior.
+CT 415 Disaster Recovery and Continuity Planning 3.0 Credits
+Disaster Recovery & Continuity Planning specific to Emergency Recovery Procedures. Techniques for development of disaster recovery plans, procedures and testing methods. Strategies used by businesses to assure that sensitive data will not be lost in the event of a disaster. Techniques used to manage potential risk within multiple environments.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+CT 432 Information Technology Security Systems Audits 3.0 Credits
+This course presents the theory, methodology, procedures and hands-on labs necessary for students to acquire a fundamental working knowledge of IT System Audits. Students learn how to discover system vulnerabilities with proper audit procedures, and how to document their findings properly for upper management.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: CT 420 [Min Grade: D] or CT 301 [Min Grade: D]
+CS 164 Introduction to Computer Science 3.0 Credits
+An introduction to the field of computer science. Exposure to core areas (selected from algorithms, artificial intelligence, computer architecture, databases, graphics, human-computer interaction, programming languages, scientific computation, software engineering) while introducing and reinforcing the importance of programming.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Corequisite: EXAM 080
+CS 171 Computer Programming I 3.0 Credits
+Introduces fundamental concepts of computing including memory, instructions, function calls, and activation records. Covers fundamentals of structured computer programming in the language of instruction: variables, input and output, expressions, assignment statements, conditionals and branching, subprograms, parameter passing, repetition, arrays, top-down design, testing, and debugging.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Corequisite: EXAM 080
+CS 172 Computer Programming II 3.0 Credits
+Covers object-oriented design, inheritance hierarchies, information hiding principles, string processing, recursion, good programming style, documentation, debugging, and testing.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: CS 171 [Min Grade: C] or CS 132 [Min Grade: C] or CS 175 [Min Grade: C]
+Corequisite: EXAM 080
+CS 175 Advanced Computer Programming I 3.0 Credits
+Advanced programming in language of instruction at an accelerated pace: introduces fundamental concepts of computing including memory, instructions, function calls, and activation records. Covers fundamentals of structured computer programming in the language of instruction: conditionals and branching, subprograms, parameter passing, repetition, arrays, top-down design, testing, and debugging. Supplements basic topics with deeper presentation of advanced techniques for those with some incoming programming experience.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+CS 176 Advanced Computer Programming II 3.0 Credits
+Enhanced presentation of object-oriented design, inheritance hierarchies, information hiding principles, string processing, recursion, good programming style, documentation, debugging and testing. Includes special focus on language facilities and use of libraries.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: CS 171 [Min Grade: C] or CS 175 [Min Grade: C]
+CS 260 Data Structures 3.0 Credits
+Covers stacks, queues, linked allocation, binary trees, internal searching and sorting, hashing, and applications.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: CS 265 [Min Grade: C]
+CS 265 Advanced Programming Tools and Techniques 3.0 Credits
+Introduction to the basic principles of programming practice: testing, debugging, portability, performance, design alternatives, and style. Application in a variety of programming languages, programming environments, and operating systems. Introduction to tools used in the software development process for improving program functionality, performance, and robustness.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: CS 172 [Min Grade: C] or CS 176 [Min Grade: C] or CS 133 [Min Grade: C] or SE 103 [Min Grade: C] or ECEC 301 [Min Grade: D] or ECEC 201 [Min Grade: D]
+CS 270 Mathematical Foundations of Computer Science 3.0 Credits
+Introduces formal logic and its connections to Computer Science. Students learn to translate statements about the behavior of computer programs into logical claims and to prove such assertions using both traditional techniques and automated tools. Considers approaches to proving termination, correctness, and safety for programs. Discusses propositional and predicate logic, logical inference, recursion and recursively defined sets, mathematical induction, and structural induction.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: CS 172 [Min Grade: C] or CS 176 [Min Grade: C] or CS 265 [Min Grade: C] or SE 103 [Min Grade: C] or ECEC 301 [Min Grade: D] or ECEC 201 [Min Grade: D]
+CS 277 Algorithms and Analysis 3.0 Credits
+Introduces foundational concepts in Computer Science theory, including computability, decidability, the Turing Machine, and algorithmic complexity. Applies concepts underlying graph theory and automata to current topics in computing to create contextualized connections between theory and practice.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: CS 260 [Min Grade: C]
+CS 281 Systems Architecture 4.0 Credits
+Covers internal function and organization of digital computers, including instruction sets, addressing methods, input-output architectures, central processor organization, machine language, and assembly language.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: (CS 270 [Min Grade: D] or ECE 200 [Min Grade: D]) and (CS 172 [Min Grade: D] or CS 176 [Min Grade: D] or SE 103 [Min Grade: D] or ECEC 301 [Min Grade: D] or ECEC 201 [Min Grade: D])
+CS 283 Systems Programming 3.0 Credits
+This course introduces computer systems, including interaction of hardware and software through the operating system, from the programmer's perspective. Three fundamental abstractions are emphasized: processes, virtual memory, and files. These abstractions provide programmers a common interface to a wide variety of hardware devices. Topics covered include linking, system level I/O, concurrent programming, and network programming.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: CS 265 [Min Grade: D]
+CS 338 Graphical User Interfaces 3.0 Credits
+This course covers the design and implementation of graphical user interfaces. Topics include: event-driven programming, application programmer interfaces, widgets, callback functions, windowing systems and desktops, rapid prototyping languages, multithreaded GUI's. A term project involving implementation of a complex application will be undertaken.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: CS 350 [Min Grade: C] or SE 310 [Min Grade: C] or CS 275 [Min Grade: C]
+CS 341 Serious Game Development 3.0 Credits
+The goal of this course is to learn more about serious games, that is games used in a non-entertainment context, such as games for health, education, and persuasion, through readings and through the design, development, and implementation of serious games.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+CS 342 Experimental Game Development 3.0 Credits
+The goal of this course is to develop new ideas and innovations in games through the design, development, and implementation of games using short development cycles and creative thematic constraints.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: CS 345 [Min Grade: C], GMAP 345 [Min Grade: D] (Can be taken Concurrently)
+CS 345 Computer Game Design and Development 3.0 Credits
+This course introduces students to the computer game design process. Students also learn how the individual skills of modeling, animation, scripting, interface design and story telling are coordinated to produce interactive media experiences for various markets, devices and purposes.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: (DIGM 260 [Min Grade: D] or GMAP 260 [Min Grade: D]) and (CS 265 [Min Grade: C] or DIGM 141 [Min Grade: D])
+CS 360 Programming Language Concepts 3.0 Credits
+Introduces the design and implementation of modern programming languages: formal theory underlying language implementation; concerns in naming, binding, storage allocation and typing; semantics of expressions and operators, control flow, and subprograms; procedural and data abstraction; functional, logic, and object-oriented languages. Students will construct an interpreter for a nontrivial language.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: CS 260 [Min Grade: C] and CS 265 [Min Grade: C] and CS 270 [Min Grade: C]
+CS 375 Web and Mobile App Development 3.0 Credits
+This course introduces students to web-based and mobile development technologies and practices, including tiered application development, Service-Oriented Architectures and associated exchange protocols, and web-database programming. This course explores development and integration of web services from well-known providers as well as services created by the student, using a mobile platform as a vehicle for interactions with the services.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: CS 265 [Min Grade: C] or (CS 164 [Min Grade: C] and CI 103 [Min Grade: C]) and (CS 172 [Min Grade: C] or CS 176 [Min Grade: C])
+CS 380 Artificial Intelligence 3.0 Credits
+Explores the foundations of artificial intelligence: production systems, heuristic programming, knowledge representation, and search algorithms. Also covers programming in an AI language. Additional topics chosen from game theory, decision support systems, pattern matching and recognition, image understanding, natural language, fuzzy and non-monotonic logic, machine learning, theorem proving, and common sense reasoning.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Restrictions: Cannot enroll if classification is Freshman
+Prerequisites: CS 260 [Min Grade: C] and CS 270 [Min Grade: C]
+CS 383 Machine Learning 3.0 Credits
+This course covers the fundamentals of modern statistical machine learning. Lectures will cover the theoretical foundation and algorithmic details of representative topics including probabilities and decision theory, regression, classification, graphical models, mixture models, clustering, expectation maximization, hidden Markov models, and weak learning.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: CS 260 [Min Grade: C] and (MATH 201 [Min Grade: C] or ENGR 231 [Min Grade: D]) and (MATH 221 [Min Grade: C] or MATH 222 [Min Grade: C]) and (MATH 311 [Min Grade: C] or MATH 410 [Min Grade: C] or ECE 361 [Min Grade: D])
+CS 461 Database Systems 3.0 Credits
+Covers topics including structure and function of database systems, normal form theory, data models (relational, network, and hierarchical), query processing (ISBL), relational algebra and calculus, and file structures. Includes programming project using DBMS.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Restrictions: Cannot enroll if classification is Freshman
+Prerequisites: CS 260 [Min Grade: D]
+CS 467 Security and Human Behavior 3.0 Credits
+Humans are usually the weakest link in information security. Technical measures are easily thwarted by end- user decisions. How are end user decisions made? This course examines security decisions online from the distinct perspective of economics, psychology, anthropology, evolutionary biology, and criminology. We will address topics such as System I vs. System II, mental models, risk perceptions, safety engineering, groups behaviors in primates.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: ECON 201 [Min Grade: D] (Can be taken Concurrently)(INFO 110 [Min Grade: D] or INFO 310 [Min Grade: D]) and PSY 101 [Min Grade: D]
+CS 472 Computer Networks: Theory, Applications and Programming 3.0 Credits
+Introduction to computer networking theory, applications and programming, focusing on large heterogeneous networks. Broad topdown introductions to computer networking concepts including distributed applications, socket programming, operation system and router support, router algorithms, and sending bits over congested, noisy and unreliable communication links.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: CS 361 [Min Grade: D] or CS 283 [Min Grade: D] or ECEC 353 [Min Grade: D]
+CI 101 Computing and Informatics Design I 2.0 Credits
+Introduces computing and informatics through a combination of lectures and hands-on laboratory exercises. Lectures emphasize an integrated view of topic areas and systems, spanning low-level software and implementation issues to high-level use and acceptance by individuals and communities. Lab exercises allow students to explore familiar systems in unique and novel ways to better understand how these systems are designed and used.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+CI 102 Computing and Informatics Design II 2.0 Credits
+Introduces computing and informatics through a combination of lectures and hands on laboratory exercises. Lectures emphasize an integrated view of topic areas and systems, spanning low level software and implementation issues to high level use and acceptance by individuals and communities. Lab exercises allow students to explore familiar systems in unique and novel ways to better understand how these systems are designed and used.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+CI 103 Computing and Informatics Design III 2.0 Credits
+Follows CI 102 in the Computing & Informatics design sequence. Introduces computing and informatics through a combination of lectures and hands-on laboratory exercises. Lectures emphasize an integrated view of topic areas and systems, spanning low-level software and implementation issues to high-level use and acceptance by individuals and communities. Lab exercises allow students to explore familiar systems in unique and novel ways to better understand how these systems are designed and used.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: CI 102 [Min Grade: D]
+CI 120 CCI Transfer Student Seminar 2.0 Credits
+Introduces students to the academic and co-curricular aspects of university life. Includes academic functions such as reflection papers, reading, and study skills, as well as co-curricular functions such as campus resources, activities, and social programs. Aids in the transition to student life at Drexel and is designed to help each student achieve academic and personal success through academic and career exploration.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+CI 491 [WI] Senior Project I 3.0 Credits
+Part of a multi-term capstone experience involving in-depth study and application of computing and informatics. Students work in teams to develop a significant product. Requires use of a development process that includes planning, specification, design, implementation, evaluation, and documentation. This course is writing intensive.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: CS 451 [Min Grade: D] or INFO 324 [Min Grade: D] or INFO 442 [Min Grade: D] or SE 310 [Min Grade: D]
+CI 492 [WI] Senior Project II 3.0 Credits
+Part of a multi-term capstone experience involving in-depth study and application of computing and informatics. Students work in teams to develop a significant product. Requires use of a development process that includes planning, specification, design, implementation, evaluation, and documentation. This course is writing intensive.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: CI 491 [Min Grade: D]
+CI 493 [WI] Senior Project III 3.0 Credits
+Part of a multi-term capstone experience involving in-depth study and application of computing and informatics. Students work in teams to develop a significant product. Requires use of a development process that includes planning, specification, design, implementation, evaluation, and documentation. This course is writing intensive.
+College/Department: College of Computing and Informatics
+Repeat Status: Not repeatable for credit
+Prerequisites: CI 492 [Min Grade: D]

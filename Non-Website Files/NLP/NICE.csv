@@ -1,0 +1,577 @@
+K0003,"Knowledge of laws, regulations, policies, and ethics as they relate to cybersecurity and privacy. "
+K0410,Knowledge of cyber laws and their effect on Cyber planning.
+K0511,Knowledge of organizational hierarchy and cyber decision-making processes.
+K0598,"Knowledge of the structure and intent of organization specific plans, guidance and authorizations."
+K0002,"Knowledge of risk management processes (e.g., methods for assessing and mitigating risk)."
+K0449,"Knowledge of how to extract, analyze, and use metadata."
+K0405,Knowledge of current computer-based intrusion sets.
+K0440,Knowledge of host-based security products and how those products affect exploitation and reduce vulnerability.
+K0507,Knowledge of organization or partner exploitation of digital networks.
+K0109,"Knowledge of physical computer components and architectures, including the functions of various components and peripherals (e.g., CPUs, Network Interface Cards, data storage)."
+K0377,"Knowledge of classification and control markings standards, policies and procedures."
+K0427,"Knowledge of encryption algorithms and cyber capabilities/tools (e.g., SSL, PGP)."
+K0409,Knowledge of cyber intelligence/information collection capabilities and repositories.
+K0004,Knowledge of cybersecurity and privacy principles.
+K0561,"Knowledge of the basics of network security (e.g., encryption, firewalls, authentication, honey pots, perimeter protection)."
+K0357,WITHDRAWN: Knowledge of analytical constructs and their use in assessing the operational environment. (See K0224)
+K0001,"Knowledge of computer networking concepts and protocols, and network security methodologies. "
+K0221,"Knowledge of OSI model and underlying network protocols (e.g., TCP/IP)."
+K0395,"Knowledge of computer networking fundamentals (i.e., basic computer components of a network, types of networks, etc.)."
+K0437,Knowledge of general Supervisory control and data acquisition (SCADA) system components.
+K0471,"Knowledge of Internet network addressing (IP addresses, classless inter-domain routing, TCP/UDP port numbering)."
+K0516,"Knowledge of physical and logical network devices and infrastructure to include hubs, switches, routers, firewalls, etc."
+K0565,"Knowledge of the common networking and routing protocols (e.g. TCP/IP), services (e.g., web, mail, DNS), and how they interact to provide network communications."
+K0457,Knowledge of intelligence confidence levels.
+K0458,Knowledge of intelligence disciplines.
+K0460,Knowledge of intelligence preparation of the environment and similar processes.
+K0464,"Knowledge of intelligence support to planning, execution, and assessment."
+K0577,"Knowledge of the intelligence frameworks, processes, and related systems."
+K0058,Knowledge of network traffic analysis methods.
+K0436,"Knowledge of fundamental cyber operations concepts, terminology/lexicon (i.e., environment preparation, cyber-attack, cyber defense), principles, capabilities, limitations, and effects."
+K0465,Knowledge of internal and external partner cyber operations capabilities and tools.
+K0610,"Knowledge of virtualization products (VMware, Virtual PC)."
+K0036,Knowledge of human-computer interaction principles.
+K0533,"Knowledge of specific target identifiers, and their usage."
+K0542,"Knowledge of target development (i.e., concepts, roles, responsibilities, products, etc.)."
+K0549,Knowledge of target vetting and validation procedures.
+K0551,Knowledge of targeting cycles.
+K0431,Knowledge of evolving/emerging communications technologies.
+K0108,"Knowledge of concepts, terminology, and operations of a wide range of communications media (computer and telephone networks, satellite, fiber, wireless)."
+K0445,Knowledge of how modern digital and telephony networks impact cyber operations.
+K0446,Knowledge of how modern wireless communications systems impact cyber operations.
+K0556,Knowledge of telecommunications fundamentals.
+K0560,"Knowledge of the basic structure, architecture, and design of modern communication networks."
+K0614,"Knowledge of wireless technologies (e.g., cellular, satellite, GSM) to include the basic structure, architecture, and design of modern wireless communications systems."
+K0177,"Knowledge of cyber attack stages (e.g., reconnaissance, scanning, enumeration, gaining access, escalation of privileges, maintaining access, network exploitation, covering tracks)."
+K0362,"Knowledge of attack methods and techniques (DDoS, brute force, spoofing, etc.)."
+K0469,Knowledge of internal tactics to anticipate and/or emulate threat capabilities and actions.
+K0480,Knowledge of malware.
+K0603,Knowledge of the ways in which targets or threats use the Internet.
+K0604,Knowledge of threat and/or target systems.
+K0612,Knowledge of what constitutes a “threat” to a network.
+K0005,Knowledge of cyber threats and vulnerabilities. 
+K0006,Knowledge of specific operational impacts of cybersecurity lapses.
+K0392,"Knowledge of common computer/network infections (virus, Trojan, etc.) and methods of infection (ports, attachments, etc.)."
+K0349,"Knowledge of website types, administration, functions, and content management system (CMS)."
+K0444,"Knowledge of how Internet applications work (SMTP email, web-based email, chat clients, VOIP)."
+K0417,"Knowledge of data communications terminology (e.g., networking protocols, Ethernet, IP, encryption, optical devices, removable media)."
+K0414,Knowledge of cyber operations support or enabling processes.
+K0351,"Knowledge of applicable statutes, laws, regulations and policies governing cyber targeting and exploitation."
+K0509,"Knowledge of organizational and partner authorities, responsibilities, and contributions to achieving objectives."
+K0510,"Knowledge of organizational and partner policies, tools, capabilities, and procedures."
+K0376,"Knowledge of internal and external customers and partner organizations, including information needs, objectives, structure, capabilities, etc."
+K0379,"Knowledge of client organizations, including information needs, objectives, structure, capabilities, etc."
+K0371,"Knowledge of principles of the collection development processes (e.g., Dialed Number Recognition, Social Network Analysis)."
+K0557,"Knowledge of terminal or environmental collection (process, objectives, organization, targets, etc.)."
+K0447,"Knowledge of how to collect, view, and identify essential information on targets of interest from metadata (e.g., email, http)."
+K0529,Knowledge of scripting
+K0473,Knowledge of intrusion sets.
+K0142,"Knowledge of collection management processes, capabilities, and limitations."
+K0418,Knowledge of data flow process for terminal or environment collection.
+K0484,"Knowledge of midpoint collection (process, objectives, organization, targets, etc.)."
+K0394,Knowledge of common reporting databases and tools. 
+K0354,Knowledge of relevant reporting and dissemination procedures.
+K0451,Knowledge of identification and reporting processes.
+K0487,"Knowledge of network security (e.g., encryption, firewalls, authentication, honey pots, perimeter protection)."
+K0443,"WITHDRAWN: Knowledge of how hubs, switches, routers work together in the design of a network. (See K0143)"
+K0470,Knowledge of Internet and routing protocols.
+K0489,Knowledge of network topology.
+K0544,Knowledge of target intelligence gathering and operational preparation techniques and life cycles.
+K0143,"Knowledge of front-end collection systems, including traffic collection, filtering, and selection."
+K0393,Knowledge of common networking devices and their configurations.
+K0397,"Knowledge of security concepts in operating systems (e.g., Linux, Unix.)"
+K0608,"Knowledge of Unix/Linux and Windows operating systems structures and internals (e.g., process management, directory structure, installed applications)."
+K0559,"Knowledge of the basic structure, architecture, and design of converged applications."
+K0224,"Knowledge of system administration concepts for operating systems such as but not limited to Unix/Linux, IOS, Android, and Windows operating systems."
+K0535,Knowledge of strategies and tools for target research.
+K0523,"Knowledge of products and nomenclature of major vendors (e.g., security suites - Trend Micro, Symantec, McAfee, Outpost, and Panda) and how those products affect exploitation and reduce vulnerabilities."
+K0368,Knowledge of implants that enable cyber collection and/or preparation activities.
+K0430,Knowledge of evasion strategies and techniques.
+K0131,"Knowledge of web mail collection, searching/analyzing techniques, tools, and cookies."
+K0388,"Knowledge of collection searching/analyzing techniques and tools for chat/buddy list, emerging technologies, VOIP, Media Over IP, VPN, VSAT/wireless, web mail and cookies."
+K0524,"Knowledge of relevant laws, regulations, and policies."
+K0579,"Knowledge of the organization, roles and responsibilities of higher, lower and adjacent sub-elements."
+K0596,Knowledge of the request for information process. 
+K0606,"Knowledge of transcript development processes and techniques (e.g., verbatim, gist, summaries)."
+K0493,"Knowledge of obfuscation techniques (e.g., TOR/Onion/anonymizers, VPN/VPS, encryption)."
+K0356,"Knowledge of analytic tools and techniques for language, voice and/or graphic material."
+K0391,"Knowledge of collection systems, capabilities, and processes. "
+K0567,Knowledge of the data flow from collection origin to repositories and tools. 
+K0462,"Knowledge of intelligence reporting principles, policies, procedures, and vehicles, including report formats, reportability criteria (requirements and priorities), dissemination practices, and legal authorities and restrictions."
+K0488,"Knowledge of network security implementations (e.g., host-based IDS, IPS, access control lists), including their function and placement in a network."
+K0491,"Knowledge of networking and Internet communications fundamentals (i.e. devices, device configuration, hardware, software, applications, ports/protocols, addressing, network architecture and infrastructure, routing, operating systems, etc.). "
+K0359,Knowledge of approved intelligence dissemination processes.
+K0532,"Knowledge of specialized target language (e.g., acronyms, jargon, technical terminology, code words)."
+K0550,"Knowledge of target, including related current events, communication profile, actors, and history (language, culture) and/or frame of reference."
+K0571,Knowledge of the feedback cycle in collection processes.
+K0564,"Knowledge of the characteristics of targeted communication networks (e.g., capacity, functionality, paths, critical nodes)."
+K0413,"Knowledge of cyber operation objectives, policies, and legalities. "
+K0416,Knowledge of cyber operations.
+K0499,Knowledge of operations security.
+K0407,Knowledge of customer information needs.
+K0396,"Knowledge of computer programming concepts, including computer languages, programming, testing, debugging, and file types. "
+K0520,"Knowledge of principles and practices related to target development such as target knowledge, associations, communication systems, and infrastructure."
+K0539,"Knowledge of target communication profiles and their key elements (e.g., target associations, activities, communication infrastructure)."
+K0540,Knowledge of target communication tools and techniques.
+K0541,"Knowledge of target cultural references, dialects, expressions, idioms, and abbreviations."
+K0545,Knowledge of target language(s).
+K0476,Knowledge of language processing tools and techniques.
+K0599,"Knowledge of the structure, architecture, and design of modern digital and telephony networks. "
+K0600,"Knowledge of the structure, architecture, and design of modern wireless communications systems."
+K0548,Knowledge of target or threat cyber actors and procedures.
+K0607,Knowledge of translation processes and techniques.
+K0574,Knowledge of the impact of language analysis on on-net operator functions.
+K0398,"Knowledge of concepts related to websites (e.g., web servers/pages, hosting, DNS, registration, web languages such as HTML)."
+K0478,Knowledge of legal considerations in targeting.
+K0439,Knowledge of governing authorities for targeting.
+K0381,Knowledge of collateral damage and estimating impact(s).
+K0543,Knowledge of target estimated repair and recuperation times.
+K0466,Knowledge of internal and external partner intelligence processes and the development of information requirements and essential information.
+K0555,Knowledge of TCP/IP networking protocols.
+K0461,Knowledge of intelligence production processes.
+K0497,Knowledge of operational effectiveness assessment.
+K0426,Knowledge of dynamic and deliberate targeting.
+K0546,"Knowledge of target list development (i.e. Restricted, Joint, Candidate, etc.)."
+K0547,Knowledge of target methods and procedures.
+K0479,Knowledge of malware analysis and characteristics.
+K0402,"Knowledge of criticality and vulnerability factors (e.g., value, recuperation, cushion, countermeasures) for target selection and applicability to the cyber domain."
+K0500,"Knowledge of organization and/or partner collection systems, capabilities, and processes (e.g., collection and protocol processors)."
+K0424,Knowledge of denial and deception techniques.
+K0472,Knowledge of intrusion detection systems and signature development.
+K0389,Knowledge of collection sources including conventional and non-conventional sources.
+K0403,"Knowledge of cryptologic capabilities, limitations, and contributions to cyber operations."
+K0483,Knowledge of methods to integrate and summarize information from any potential sources.
+K0592,Knowledge of the purpose and contribution of target templates.
+K0442,"Knowledge of how converged technologies impact cyber operations (e.g., digital, telephony, wireless)."
+K0415,Knowledge of cyber operations terminology/lexicon.
+K0353,Knowledge of possible circumstances that would result in changing collection management authorities.
+K0584,Knowledge of the organizational policies/procedures for temporary transfer of collection authority.
+K0425,"Knowledge of different organization objectives at all levels, including subordinate, lateral and higher."
+K0477,Knowledge of leadership's Intent and objectives.
+K0513,"Knowledge of organizational priorities, legal authorities and requirements submission processes."
+K0581,"Knowledge of the organization’s planning, operations and targeting cycles."
+K0583,Knowledge of the organizational plans/directives/guidance that describe objectives.
+K0613,"Knowledge of who the organization’s operational planners are, how and where they can be contacted, and what are their expectations."
+K0527,Knowledge of risk management and mitigation strategies.
+K0361,"Knowledge of asset availability, capabilities and limitations."
+K0448,Knowledge of how to establish priorities for resources.
+K0601,Knowledge of the systems/architecture/communications used for coordination.
+K0605,"Knowledge of tipping, cueing, mixing, and redundancy."
+K0412,Knowledge of cyber lexicon/terminology
+K0587,"Knowledge of the POC’s, databases, tools and applications necessary to establish environment preparation and surveillance products."
+K0382,Knowledge of collection capabilities and limitations.
+K0383,"Knowledge of collection capabilities, accesses, performance specifications, and constraints utilized to satisfy collection plan."
+K0386,Knowledge of collection management tools.
+K0387,Knowledge of collection planning process and collection plan.
+K0390,Knowledge of collection strategies.
+K0401,Knowledge of criteria for evaluating collection products.
+K0404,Knowledge of current collection requirements.
+K0467,"Knowledge of internal and external partner organization capabilities and limitations (those with tasking, collection, processing, exploitation and dissemination responsibilities)."
+K0482,Knowledge of methods for ascertaining collection asset posture and availability.
+K0492,Knowledge of non-traditional collection methodologies.
+K0505,Knowledge of organization objectives and associated demand on collection management.
+K0522,Knowledge of production exploitation and dissemination needs and architectures. 
+K0558,Knowledge of the available tools and applications associated with collection requirements and collection management.
+K0562,"Knowledge of the capabilities and limitations of new and emerging collection capabilities, accesses and/or processes."
+K0569,"Knowledge of the existent tasking, collection, processing, exploitation and dissemination architecture."
+K0364,Knowledge of available databases and tools necessary to assess appropriate collection tasking.
+K0419,Knowledge of database administration and maintenance.
+K0454,Knowledge of information needs.
+K0503,"Knowledge of organization formats of resource and asset readiness reporting, its operational relevance and intelligence collection impact."
+K0435,"Knowledge of fundamental cyber concepts, principles, limitations, and effects."
+K0552,Knowledge of tasking mechanisms.
+K0553,Knowledge of tasking processes for organic and subordinate collection assets.
+K0580,Knowledge of the organization’s established format for collection plan.
+K0521,"Knowledge of priority information, how it is derived, where it is published, how to access, etc."
+K0526,Knowledge of research strategies and knowledge management.
+K0554,"Knowledge of tasking, collection, processing, exploitation and dissemination."
+K0588,"Knowledge of the priority information requirements from subordinate, lateral and higher levels of the organization."
+K0495,Knowledge of ongoing and future operations.
+K0496,Knowledge of operational asset constraints.
+K0498,Knowledge of operational planning processes.
+K0563,"Knowledge of the capabilities, limitations and tasking methodologies of internal and external collections as they apply to planned cyber activities."
+K0380,Knowledge of collaborative tools and environments.
+K0453,Knowledge of indications and warning.
+K0474,Knowledge of key cyber threat actors and their equities.
+K0475,Knowledge of key factors of the operational environment and threat.
+K0570,Knowledge of the factors of threat that could impact collection operations.
+K0568,Knowledge of the definition of collection management and collection management authority.
+K0421,"Knowledge of databases, portals and associated dissemination vehicles."
+K0384,"Knowledge of collection management functionality (e.g., positions, functions, responsibilities, products, reporting requirements)."
+K0517,Knowledge of post implementation review (PIR) approval process.
+K0518,Knowledge of planning activity initiation.
+K0575,Knowledge of the impacts of internal and external partner staffing estimates.
+K0411,Knowledge of cyber laws and legal considerations and their effect on cyber planning.
+K0350,Knowledge of accepted organization planning systems.
+K0502,Knowledge of organization decision support tools and/or methods.
+K0504,"Knowledge of organization issues, objectives, and operations in cyber as well as regulations and policy directives governing cyber operations."
+K0506,"Knowledge of organization objectives, leadership priorities, and decision-making risks."
+K0508,Knowledge of organization policies and planning concepts for partnering with internal and/or external organizations.
+K0512,Knowledge of organizational planning concepts.
+K0514,Knowledge of organizational structures and associated intelligence capabilities.
+K0572,Knowledge of the functions and capabilities of internal teams that emulate threat activities to benefit the organization.
+K0582,Knowledge of the organizational planning and staffing process.
+K0585,"Knowledge of the organizational structure as it pertains to full spectrum cyber operations, including the functions, responsibilities, and interrelationships among distinct internal elements."
+K0432,"Knowledge of existing, emerging, and long-range issues related to cyber operations strategy, policy, and organization."
+K0455,"Knowledge of information security concepts, facilitating technologies and methods."
+K0422,Knowledge of deconfliction processes and procedures.
+K0408,"Knowledge of cyber actions (i.e. cyber defense, information gathering, environment preparation, cyber-attack) principles, capabilities, limitations, and effects."
+K0602,Knowledge of collection disciplines and capabilities.
+K0399,Knowledge of crisis action planning and time sensitive planning procedures.
+K0519,"Knowledge of planning timelines adaptive, crisis action, and time-sensitive planning."
+K0586,Knowledge of the outputs of course of action and exercise analysis.
+K0120,"Knowledge of how information needs and collection requirements are translated, tracked, and prioritized across the extended enterprise."
+K0355,Knowledge of all-source reporting and dissemination procedures.
+K0352,"Knowledge of forms of intelligence support needs, topics, and focus areas."
+K0358,Knowledge of analytical standards and the purpose of intelligence confidence levels.
+K0456,Knowledge of intelligence capabilities and limitations.
+K0459,"Knowledge of intelligence employment requirements (i.e., logistical, communications support, maneuverability, legal restrictions, etc.)."
+K0463,Knowledge of intelligence requirements tasking systems.
+K0525,Knowledge of required intelligence planning products associated with cyber operational planning.
+K0595,"Knowledge of the relationships of operational objectives, intelligence requirements, and intelligence production tasks."
+K0400,Knowledge of crisis action planning for cyber operations.
+K0494,"Knowledge of objectives, situation, operational environment, and the status and disposition of internal and external partner collection capabilities available to support planning."
+K0501,"Knowledge of organization cyber operations programs, strategies, and resources."
+K0589,Knowledge of the process used to assess the performance and impact of operations.
+K0590,Knowledge of the processes to synchronize operational assessment procedures with the critical information requirement process.
+K0591,Knowledge of the production responsibilities and organic analysis and production capabilities.
+K0593,"Knowledge of the range of cyber operations and their underlying intelligence support needs, topics, and focus areas."
+K0594,"Knowledge of the relationships between end states, objectives, effects, lines of operation, etc."
+K0566,Knowledge of the critical information requirements and how they're used in planning.
+K0578,Knowledge of the intelligence requirements development and request for information processes.
+K0347,Knowledge and understanding of operational design.
+K0538,"Knowledge of target and threat organization structures, critical capabilities, and critical vulnerabilities"
+K0534,"Knowledge of staff management, assignment, and allocation processes."
+K0576,Knowledge of the information environment.
+K0597,Knowledge of the role of network operations in supporting and facilitating other organization operations.
+K0021,Knowledge of data backup and recovery.
+K0423,Knowledge of deconfliction reporting to include external organization interaction.
+K0433,Knowledge of forensic implications of operating system structure and operations.
+K0573,Knowledge of the fundamentals of digital forensics to extract actionable intelligence.
+K0051,"Knowledge of low-level computer languages (e.g., assembly languages)."
+K0372,"Knowledge of programming concepts (e.g., levels, structures, compiled vs. interpreted languages)."
+K0530,"Knowledge of security hardware and software options, including the network artifacts they induce and their effects on exploitation."
+K0373,"Knowledge of basic software applications (e.g., data storage and backup, database applications) and the types of vulnerabilities that have been found in those applications."
+K0420,Knowledge of database theory.
+K0428,Knowledge of encryption algorithms and tools for wireless local area networks (WLANs).
+K0429,Knowledge of enterprise-wide information management.
+K0468,Knowledge of internal and external partner reporting.
+K0486,Knowledge of network construction and topology.
+K0485,Knowledge of network administration.
+K0452,"Knowledge of implementing Unix and Windows systems that provide radius authentication and logging, DNS, mail, web service, FTP server, DHCP, firewall, and SNMP."
+K0363,Knowledge of auditing and logging procedures (including server-based logging).
+K0406,Knowledge of current software and methodologies for active defense and system hardening.
+K0609,Knowledge of virtual machine technologies.
+K0375,Knowledge of wireless applications vulnerabilities.
+K0438,"Knowledge of mobile cellular communications architecture (e.g., LTE, CDMA, GSM/EDGE and UMTS/HSPA)."
+K0528,Knowledge of satellite-based communication systems.
+K0536,"Knowledge of structure, approach, and strategy of exploitation tools (e.g., sniffers, keyloggers) and techniques (e.g., gaining backdoor access, collecting/exfiltrating data, conducting vulnerability analysis of other systems in the network)."
+K0009,Knowledge of application vulnerabilities.
+K0481,Knowledge of methods and techniques used to detect various exploitation activities.
+K0531,Knowledge of security implications of software configurations.
+K0123,Knowledge of legal governance related to admissibility (e.g. Rules of Evidence). 
+K0125,"Knowledge of processes for collecting, packaging, transporting, and storing electronic evidence while maintaining chain of custody."
+K0155,Knowledge of electronic evidence law.
+K0156,Knowledge of legal rules of evidence and court procedure.
+K0168,"Knowledge of applicable laws, statutes (e.g., in Titles 10, 18, 32, 50 in U.S. Code), Presidential Directives, executive branch guidelines, and/or administrative/criminal legal guidelines and procedures."
+K0251,"Knowledge of the judicial process, including the presentation of facts and evidence."
+K0118,Knowledge of processes for seizing and preserving digital evidence.
+K0128,Knowledge of types and collection of persistent data.
+K0046,Knowledge of intrusion detection methodologies and techniques for detecting host and network-based intrusions.
+K0110,"Knowledge of adversarial tactics, techniques, and procedures."
+K0231,"Knowledge of crisis management protocols, processes, and techniques. "
+K0114,"Knowledge of electronic devices (e.g., computer systems/components, access control devices, digital cameras, digital scanners, electronic organizers, hard drives, memory cards, modems, network components, networked appliances, networked home control devices, printers, removable storage devices, telephones, copiers, facsimile machines, etc.)."
+K0209,Knowledge of covert communication techniques.
+K0107,"Knowledge of Insider Threat investigations, reporting, investigative tools and laws/regulations."
+K0144,Knowledge of social dynamics of computer attackers in a global context.
+K0244,Knowledge of physical and physiological behaviors that may indicate suspicious or abnormal activity.
+K0070,"Knowledge of system and application security threats and vulnerabilities (e.g., buffer overflow, mobile code, cross-site scripting, Procedural Language/Structured Query Language [PL/SQL] and injections, race conditions, covert channel, replay, return-oriented attacks, malicious code)."
+K0624,Knowledge of Application Security Risks (e.g. Open Web Application Security Project Top 10 list)
+K0122,"Knowledge of investigative implications of hardware, Operating Systems, and network technologies."
+K0132,"Knowledge of which system files (e.g., log files, registry files, configuration files) contain relevant information and where to find those system files."
+K0133,Knowledge of types of digital forensics data and how to recognize them.
+K0134,Knowledge of deployable forensics.
+K0182,"Knowledge of data carving tools and techniques (e.g., Foremost)."
+K0184,"Knowledge of anti-forensics tactics, techniques, and procedures."
+K0185,"Knowledge of forensics lab design configuration and support applications (e.g., VMWare, Wireshark)."
+K0304,Knowledge of concepts and practices of processing digital forensic data.
+K0018,Knowledge of encryption algorithms 
+K0255,"Knowledge of network architecture concepts including topology, protocols, and components."
+K0042,Knowledge of incident response and handling methodologies.
+K0145,Knowledge of security event correlation tools.
+K0179,"Knowledge of network security architecture concepts including topology, protocols, components, and principles (e.g., application of defense-in-depth)."
+K0060,Knowledge of operating systems.
+K0077,Knowledge of server and client operating systems.
+K0117,"Knowledge of file system implementations (e.g., New Technology File System [NTFS], File Allocation Table [FAT], File Extension [EXT])."
+K0186,Knowledge of debugging procedures and tools.
+K0078,Knowledge of server diagnostic tools and fault identification techniques.
+K0167,"Knowledge of system administration, network, and operating system hardening techniques."
+K0183,Knowledge of reverse engineering concepts.
+K0188,"Knowledge of malware analysis tools (e.g., Oily Debug, Ida Pro)."
+K0189,"Knowledge of malware with virtual machine detection (e.g. virtual aware malware, debugger aware malware, and unpacked malware that looks for VM-related strings in your computer’s display device)."
+K0254,Knowledge of binary analysis.
+K0119,Knowledge of hacking methodologies.
+K0187,Knowledge of file type abuse by adversaries for anomalous behavior.
+K0301,"Knowledge of packet-level analysis using appropriate tools (e.g., Wireshark, tcpdump)."
+K0017,Knowledge of concepts and practices of processing digital forensic data.
+K0305,Knowledge of data concealment (e.g. encryption algorithms and steganography).
+K0260,Knowledge of Personally Identifiable Information (PII) data security standards.
+K0261,Knowledge of Payment Card Industry (PCI) data security standards.
+K0262,Knowledge of Personal Health Information (PHI) data security standards.
+K0242,Knowledge of organizational security policies.
+K0302,Knowledge of the basic operation of computers.
+K0292,"Knowledge of the operations and processes for incident, problem, and event management."
+K0317,"Knowledge of procedures used for documenting and querying reported incidents, problems, and events."
+K0247,"Knowledge of remote access processes, tools, and capabilities related to customer support."
+K0287,Knowledge of an organization's information classification program and procedures for information compromise.
+K0053,Knowledge of measures or indicators of system performance and availability.
+K0194,"Knowledge of Cloud-based knowledge management technologies and concepts related to security, governance, procurement, and administration. "
+K0116,"Knowledge of file extensions (e.g., .dll, .bat, .zip, .pcap, .gzip)."
+K0330,Knowledge of successful capabilities to identify the solutions to less common and more complex system problems.
+K0294,"Knowledge of IT system operation, maintenance, and security needed to keep equipment functioning properly."
+K0088,Knowledge of systems administration concepts.
+K0237,Knowledge of industry best practices for service desk.
+K0016,Knowledge of computer programming principles 
+K0068,Knowledge of programming language structures and logic.
+K0139,Knowledge of interpreted and compiled computer languages.
+K0140,Knowledge of secure coding techniques.
+K0236,"Knowledge of how to utilize Hadoop, Java, Python, SQL, Hive, and Pig to explore data."
+K0020,Knowledge of data administration and data standardization policies.
+K0022,Knowledge of data mining and data warehousing principles.
+K0083,"Knowledge of sources, characteristics, and uses of the organization’s data assets."
+K0095,"Knowledge of the capabilities and functionality associated with various technologies for organizing and managing information (e.g., databases, bookmarking engines)."
+K0193,Knowledge of advanced data remediation security features in databases.
+K0023,"Knowledge of database management systems, query languages, table relationships, and views."
+K0069,Knowledge of query languages such as SQL (structured query language).
+K0197,"Knowledge of database access application programming interfaces (e.g., Java Database Connectivity [JDBC])."
+K0025,Knowledge of digital rights management.
+K0031,Knowledge of enterprise messaging systems and associated software.
+K0056,"Knowledge of network access, identity, and access management (e.g., public key infrastructure, Oauth, OpenID, SAML, SPML)."
+K0065,Knowledge of policy-based and risk adaptive access controls.
+K0015,Knowledge of computer algorithms.
+K0052,"Knowledge of mathematics (e.g. logarithms, trigonometry, linear algebra, calculus, statistics, and operational analysis)."
+K0238,Knowledge of machine learning theory and principles.
+K0325,"Knowledge of Information Theory (e.g., source coding, channel coding, algorithm complexity theory, and data compression)."
+K0129,"Knowledge of command-line tools (e.g., mkdir, mv, ls, passwd, grep)."
+K0229,"Knowledge of applications that can log errors, exceptions, and application faults and logging."
+K0097,Knowledge of the characteristics of physical and virtual data storage media.
+K0278,Knowledge of current and emerging data remediation security features in databases.
+K0277,"Knowledge of current and emerging data encryption (e.g., Column and Tablespace Encryption, file and disk encryption) security features in databases (e.g. built-in cryptographic key management features)."
+K0146,Knowledge of the organization's core business/mission processes.
+K0195,Knowledge of data classification standards and methodologies based on sensitivity and other risk factors.
+K0338,Knowledge of data mining techniques.
+K0315,"Knowledge of the principal methods, procedures, and techniques of gathering information and producing, reporting, and sharing information."
+K0228,Knowledge of taxonomy and semantic ontology theory.
+K0283,"Knowledge of use cases related to collaboration and content synchronization across platforms (e.g., Mobile, PC, Cloud)."
+K0094,"Knowledge of the capabilities and functionality associated with content creation technologies (e.g., wikis, social networking, content management systems, blogs)."
+K0096,"Knowledge of the capabilities and functionality of various collaborative technologies (e.g., groupware, SharePoint)."
+K0013,Knowledge of cyber defense and vulnerability assessment tools and their capabilities.
+K0160,Knowledge of the common attack vectors on the network layer.
+K0622,"Knowledge of controls related to the use, processing, storage, and transmission of data."
+K0104,Knowledge of Virtual Private Network (VPN) security.
+K0201,Knowledge of symmetric key rotation techniques and concepts.
+K0200,"Knowledge of service management concepts for networks and related standards (e.g., Information Technology Infrastructure Library, current version [ITIL])."
+K0038,"Knowledge of cybersecurity and privacy principles used to manage risks related to the use, processing, storage, and transmission of information or data."
+K0203,"Knowledge of security models (e.g., Bell-LaPadula model, Biba integrity model, Clark-Wilson integrity model)."
+K0049,"Knowledge of information technology (IT) security principles and methods (e.g., firewalls, demilitarized zones, encryption). "
+K0011,"Knowledge of capabilities and applications of network equipment including routers, switches, bridges, servers, transmission media, and related hardware."
+K0029,Knowledge of organization's Local and Wide Area Network connections.
+K0050,Knowledge of local area and wide area networking principles and concepts including bandwidth management.
+K0061,"Knowledge of how traffic flows across the network (e.g., Transmission Control Protocol [TCP] and Internet Protocol [IP], Open System Interconnection Model [OSI], Information Technology Infrastructure Library, current version [ITIL])."
+K0113,"Knowledge of different types of network communication (e.g., LAN, WAN, MAN, WLAN, WWAN)."
+K0137,"Knowledge of the range of existing networks (e.g., PBX, LANs, WANs, WIFI, SCADA)."
+K0332,"Knowledge of network protocols such as TCP/IP, Dynamic Host Configuration, Domain Name System (DNS), and directory services."
+K0111,"Knowledge of network tools (e.g., ping, traceroute, nslookup) "
+K0180,"Knowledge of network systems management principles, models, methods (e.g., end-to-end systems performance monitoring), and tools."
+K0076,"Knowledge of server administration and systems engineering theories, concepts, and methods."
+K0071,Knowledge of remote access technology concepts.
+K0010,"Knowledge of communication methods, principles, and concepts that support the network infrastructure."
+K0093,"Knowledge of telecommunications concepts (e.g., Communications channel, Systems Link Budgeting, Spectral efficiency, Multiplexing)."
+K0136,"Knowledge of the capabilities of different electronic communication systems and methods (e.g., e-mail, VOIP, IM, web forums, Direct Video Broadcasts)."
+K0138,Knowledge of Wi-Fi.
+K0159,Knowledge of Voice over IP (VoIP).
+K0274,"Knowledge of transmission records (e.g., Bluetooth, Radio Frequency Identification (RFID), Infrared Networking (IR), Wireless Fidelity (Wi-Fi). paging, cellular, satellite dishes, Voice over Internet Protocol (VoIP)), and jamming techniques that enable transmission of undesirable information, or prevent installed systems from operating correctly. "
+K0135,Knowledge of web filtering technologies.
+K0100,Knowledge of the enterprise information technology (IT) architecture.
+K0158,"Knowledge of organizational information technology (IT) user security policies (e.g., account creation, password rules, access control)."
+K0064,Knowledge of performance tuning tools and techniques.
+K0103,Knowledge of the type and frequency of routine hardware maintenance.
+K0318,Knowledge of operating system command-line tools.
+K0130,Knowledge of virtualization technologies and virtual machine development and maintenance.
+K0280,"Knowledge of systems engineering theories, concepts, and methods."
+K0346,Knowledge of principles and methods for integrating system components.
+K0289,Knowledge of system/server diagnostic tools and fault identification techniques.
+K0267,"Knowledge of laws, policies, procedures, or governance relevant to cybersecurity for critical infrastructures."
+K0263,"Knowledge of information technology (IT) risk management policies, requirements, and procedures."
+K0266,Knowledge of how to evaluate the trustworthiness of the supplier and/or product.
+K0024,Knowledge of database systems.
+K0019,Knowledge of cryptography and cryptographic key management concepts 
+K0285,Knowledge of implementing enterprise key escrow systems to support data-at-rest encryption.
+K0063,Knowledge of parallel and distributed computing concepts.
+K0044,"Knowledge of cybersecurity and privacy principles and organizational requirements (relevant to confidentiality, integrity, availability, authentication, non-repudiation)."
+K0075,"Knowledge of security system design tools, methods, and techniques."
+K0276,Knowledge of security management.
+K0322,Knowledge of embedded systems.
+K0333,"Knowledge of network design processes, to include understanding of security objectives, operational objectives, and trade-offs."
+K0281,Knowledge of information technology (IT) service catalogues.
+K0082,Knowledge of software engineering.
+K0227,Knowledge of various types of computer architectures.
+K0275,Knowledge of configuration management techniques.
+K0284,Knowledge of developing and applying user credential management system.
+K0035,"Knowledge of installation, integration, and optimization of system components."
+K0102,Knowledge of the systems engineering process.
+K0290,Knowledge of systems security testing and evaluation methods.
+K0297,Knowledge of countermeasure design for identified security risks.
+K0040,"Knowledge of vulnerability information dissemination sources (e.g., alerts, advisories, errata, and bulletins)."
+K0339,Knowledge of how to use network analysis tools to identify vulnerabilities.
+K0121,Knowledge of information security program management and project management principles and techniques.
+K0026,Knowledge of business continuity and disaster recovery continuity of operations plans.
+K0126,Knowledge of Supply Chain Risk Management Practices (NIST SP 800-161)
+K0163,Knowledge of critical information technology (IT) procurement requirements.
+K0101,Knowledge of the organization’s enterprise information technology (IT) goals and objectives.
+K0090,"Knowledge of system life cycle management principles, including software security and usability."
+K0072,Knowledge of resource management principles and techniques.
+K0048,Knowledge of Risk Management Framework (RMF) requirements.
+K0149,Knowledge of organization's risk tolerance and/or risk management approach.
+K0169,"Knowledge of information technology (IT) supply chain security and supply chain risk management policies, requirements, and procedures."
+K0043,Knowledge of industry-standard and organizationally accepted analysis principles and methods.
+K0199,"Knowledge of security architecture concepts and enterprise architecture reference models (e.g., Zachman, Federal Enterprise Architecture [FEA])."
+K0150,"Knowledge of enterprise incident response program, roles, and responsibilities."
+K0054,"Knowledge of current industry methods for evaluating, implementing, and disseminating information technology (IT) security assessment, monitoring, detection, and remediation tools and procedures utilizing standards-based concepts and capabilities."
+K0033,"Knowledge of host/network access control mechanisms (e.g., access control list, capabilities lists)."
+K0170,Knowledge of critical infrastructure systems with information communication technology that were designed without system security considerations.
+K0008,Knowledge of applicable business processes and operations of customer organizations.
+K0087,"Knowledge of system software and organizational design standards, policies, and authorized approaches (e.g., International Organization for Standardization [ISO] guidelines) relating to system design."
+K0092,Knowledge of technology integration processes.
+K0059,Knowledge of new and emerging information technology (IT) and cybersecurity technologies.
+K0151,Knowledge of current and emerging threats/threat vectors.
+K0106,Knowledge of what constitutes a network attack and a network attack’s relationship to both threats and vulnerabilities.
+K0342,"Knowledge of penetration testing principles, tools, and techniques."
+K0628,"Knowledge of cyber competitions as a way of developing skills by providing hands-on experience in simulated, real-world situations."
+K0296,"Knowledge of capabilities, applications, and potential vulnerabilities of network equipment including hubs, routers, switches, bridges, servers, transmission media, and related hardware."
+K0314,Knowledge of industry technologies’ potential cybersecurity vulnerabilities.
+K0147,"Knowledge of emerging security issues, risks, and vulnerabilities."
+K0615,Knowledge of privacy disclosure statements based on current laws.
+K0341,Knowledge of foreign disclosure policies and import/export control regulations as related to cybersecurity. 
+K0157,"Knowledge of cyber defense and information security policies, procedures, and regulations."
+K0312,"Knowledge of intelligence gathering principles, policies, and procedures including legal authorities and restrictions."
+K0316,"Knowledge of business or military operation plans, concept operation plans, orders, policies, and standing rules of engagement."
+K0066,Knowledge of Privacy Impact Assessments.
+K0235,"Knowledge of how to leverage research and development centers, think tanks, academic research, and industry systems."
+K0257,Knowledge of information technology (IT) acquisition/procurement requirements.
+K0270,Knowledge of the acquisition/procurement life cycle process.
+K0196,Knowledge of Import/Export Regulations related to cryptography and other security technologies.
+K0198,"Knowledge of organizational process improvement concepts and process maturity models (e.g., Capability Maturity Model Integration (CMMI) for Development, CMMI for Services, and CMMI for Acquisitions)."
+K0154,"Knowledge of supply chain risk management standards, processes, and practices."
+K0165,Knowledge of risk/threat assessment.
+K0148,Knowledge of import/export control regulations and responsible agencies for the purposes of reducing supply chain risk.
+K0164,"Knowledge of functionality, quality, and security requirements and how these will apply to specific items of supply (i.e., elements and processes)."
+K0047,Knowledge of information technology (IT) architectural concepts and frameworks.
+K0012,Knowledge of capabilities and requirements analysis.
+K0249,"Knowledge of sustainment technologies, processes and strategies."
+K0248,Knowledge of strategic theory and practice.
+K0313,"Knowledge of external organizations and academic institutions with cyber focus (e.g., cyber curriculum/training and Research & Development)."
+K0127,"Knowledge of the nature and function of the relevant information structure (e.g., National Information Infrastructure)."
+K0234,"Knowledge of full spectrum cyber capabilities (e.g., defense, attack, exploitation)."
+K0309,Knowledge of emerging technologies that have potential for exploitation.
+K0311,Knowledge of industry indicators useful for identifying technology trends.
+K0335,Knowledge of current and emerging cyber technologies.
+K0204,"Knowledge of learning assessment techniques (rubrics, evaluation plans, tests, quizzes)."
+K0215,Knowledge of organizational training policies.
+K0243,"Knowledge of organizational training and education policies, processes, and procedures."
+K0233,"Knowledge of the National Cybersecurity Workforce Framework, work roles, and associated tasks, knowledge, skills, and abilities."
+K0241,"Knowledge of organizational human resource policies, processes, and procedures."
+K0217,Knowledge of Learning Management Systems and their use in managing learning.
+K0220,"Knowledge of modes of learning (e.g., rote learning, observation)."
+K0245,Knowledge of principles and processes for conducting training and education needs assessment.
+K0250,Knowledge of Test & Evaluation processes for learners.
+K0252,"Knowledge of training and education principles and methods for curriculum design, teaching and instruction for individuals and groups, and the measurement of training and education effects."
+K0124,Knowledge of multiple cognitive domains and tools and methods applicable for learning in each domain.
+K0208,Knowledge of computer based training and e-learning services. 
+K0213,"Knowledge of instructional design and evaluation models (e.g., ADDIE, Smith/Ragan model, Gagne’s Events of Instruction, Kirkpatrick’s model of evaluation)."
+K0216,"Knowledge of learning levels (i.e., Bloom’s Taxonomy of learning)."
+K0239,"Knowledge of media production, communication, and dissemination techniques and methods, including alternative ways to inform via written, oral, and visual media."
+K0246,"Knowledge of relevant concepts, procedures, software, equipment, and technology applications."
+K0218,"Knowledge of learning styles (e.g., assimilator, auditory, kinesthetic)."
+K0226,Knowledge of organizational training systems.
+K0007,"Knowledge of authentication, authorization, and access control methods."
+K0319,Knowledge of technical delivery capabilities and their limitations.
+K0115,Knowledge that technology that can be exploited.
+K0222,"Knowledge of relevant laws, legal authorities, restrictions, and regulations pertaining to cyber defense activities."
+K0098,Knowledge of the cyber defense Service Provider reporting structure and processes within one’s own organization.
+K0191,"Knowledge of signature implementation impact for viruses, malware, and attacks."
+K0324,Knowledge of Intrusion Detection System (IDS)/Intrusion Prevention System (IPS) tools and applications.
+K0190,Knowledge of encryption methodologies.
+K0074,"Knowledge of key concepts in security management (e.g., Release Management, Patch Management)."
+K0112,Knowledge of defense-in-depth principles and network security architecture.
+K0300,Knowledge of network mapping and recreating network topologies.
+K0303,Knowledge of the use of sub-netting tools.
+K0192,Knowledge of Windows/Unix ports and services.
+K0161,"Knowledge of different classes of attacks (e.g., passive, active, insider, close-in, distribution attacks)."
+K0162,"Knowledge of cyber attackers (e.g., script kiddies, insider threat, non-nation state sponsored, and nation sponsored)."
+K0258,"Knowledge of test procedures, principles, and methodologies (e.g., Capabilities and Maturity Model Integration (CMMI))."
+K0334,"Knowledge of network traffic analysis (tools, methodologies, processes)."
+K0205,"Knowledge of basic system, network, and OS hardening techniques."
+K0062,Knowledge of packet-level analysis.
+K0041,"Knowledge of incident categories, incident responses, and timelines for responses."
+K0034,Knowledge of network services and protocols interactions that provide network communications.
+K0230,Knowledge of cloud service models and how those models can limit incident response.
+K0259,Knowledge of malware analysis concepts and methodologies.
+K0210,Knowledge of data backup and restoration concepts.
+K0308,Knowledge of cryptology.
+K0265,"Knowledge of infrastructure supporting information technology (IT) for safety, performance, and reliability."
+K0089,Knowledge of systems diagnostic tools and fault identification techniques.
+K0344,Knowledge of an organization’s threat environment.
+K0206,Knowledge of ethical hacking principles and techniques.
+K0084,Knowledge of structured analysis principles and methods.
+K0027,Knowledge of organization's enterprise information security architecture.
+K0037,Knowledge of Security Assessment and Authorization process.
+K0295,"Knowledge of confidentiality, integrity, and availability principles. "
+K0028,Knowledge of organization's evaluation and validation requirements.
+K0014,Knowledge of complex data structures.
+K0202,"Knowledge of the application firewall concepts and functions (e.g., Single point of authentication/audit/policy enforcement, message scanning for malicious content, data anonymization for PCI and PII compliance, data loss protection scanning, accelerated cryptographic operations, SSL security, REST/JSON processing)."
+K0343,Knowledge of root cause analysis techniques.
+K0152,"Knowledge of software related information technology (IT) security principles and methods (e.g., modularization, layering, abstraction, data hiding, simplicity/minimization)."
+K0039,Knowledge of cybersecurity and privacy principles and methods that apply to software development.
+K0079,Knowledge of software debugging principles.
+K0080,"Knowledge of software design tools, methods, and techniques."
+K0081,"Knowledge of software development models (e.g., Waterfall Model, Spiral Model)."
+K0153,Knowledge of software quality assurance process.
+K0178,"Knowledge of secure software deployment methodologies, tools, and practices."
+K0073,"Knowledge of secure configuration management techniques. (e.g., Security Technical Implementation Guides (STIGs), cybersecurity best practices on cisecurity.org)."
+K0086,"Knowledge of system design tools, methods, and techniques, including automated systems analysis and design tools."
+K0105,"Knowledge of web services (e.g., service-oriented architecture, Simple Object Access Protocol, and web service description language)."
+K0214,Knowledge of the Risk Management Framework Assessment Methodology. 
+K0264,"Knowledge of program protection planning (e.g. information technology (IT) supply chain security/risk management policies, anti-tampering techniques, and requirements)."
+K0030,"Knowledge of electrical engineering as applied to computer architecture (e.g., circuit boards, processors, chips, and computer hardware)."
+K0291,"Knowledge of the enterprise information technology (IT) architectural concepts and patterns (e.g., baseline, validated design, and target architectures.)"
+K0293,Knowledge of integrating the organization’s goals and objectives into the architecture.
+K0211,"Knowledge of confidentiality, integrity, and availability requirements."
+K0240,Knowledge of multi-level security systems and cross domain solutions.
+K0326,Knowledge of demilitarized zones.
+K0207,Knowledge of circuit analysis.
+K0286,Knowledge of N-tiered typologies (e.g. including server and client operating systems).
+K0299,"Knowledge in determining how a security system should work (including its resilience and dependability capabilities) and how changes in conditions, operations, or the environment will affect these outcomes."
+K0323,Knowledge of system fault tolerance methodologies.
+K0091,Knowledge of systems testing and evaluation methods.
+K0212,Knowledge of cybersecurity-enabled software products.
+K0320,Knowledge of organization's evaluation and validation criteria.
+K0055,Knowledge of microprocessors.
+K0336,Knowledge of access authentication methods.
+K0057,Knowledge of network hardware devices and functions.
+K0374,"WITHDRAWN: Knowledge of basic structure, architecture, and design of modern digital and telephony networks. (See K0599)"
+K0032,Knowledge of resiliency and redundancy.
+K0067,Knowledge of process engineering concepts.
+K0045,Knowledge of information security systems engineering principles (NIST SP 800-160).
+K0288,Knowledge of industry standard security models.
+K0268,Knowledge of forensic footprint identification.
+K0321,Knowledge of engineering concepts as applied to computer architecture and associated computer hardware/software.
+K0174,Knowledge of networking protocols.
+K0271,"Knowledge of operating system structures and internals (e.g., process management, directory structure, installed applications)."
+K0172,"Knowledge of middleware (e.g., enterprise service bus and message queuing)."
+K0269,Knowledge of mobile communications architecture.
+K0171,Knowledge of hardware reverse engineering techniques.
+K0175,Knowledge of software reverse engineering techniques.
+K0272,Knowledge of network analysis tools used to identify software communications vulnerabilities.
+K0310,Knowledge of hacking methodologies.
+K0176,Knowledge of Extensible Markup Language (XML) schemas.
